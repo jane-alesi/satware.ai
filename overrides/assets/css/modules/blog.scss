@@ -1,5 +1,18 @@
 // Blog styling
 
+// Blog post title styling
+.md-post__title {
+  margin-top: 0; // Remove margin-top for H2 elements on blog page
+}
+
+// Blog post meta styling (date display)
+.md-post__meta {
+  margin-bottom: 0.5rem; // Add some space between date and title
+  //font-size: 0.9rem; // Slightly smaller than normal text
+  color: var(--md-default-fg-color--light); // Lighter color for the date
+
+}
+
 // Author styling in blog posts
 .md-post__authors.md-typeset {
   font-size: 1.3rem; // Match the general text size of the website
@@ -17,8 +30,10 @@
   // Long author format (used in blog post sidebar)
   .md-author--long {
     img {
-      width: 4rem; // Even larger for the long format
-      height: 4rem; // Maintain aspect ratio
+      //width: 4rem; // Even larger for the long format
+      //height: 4rem; // Maintain aspect ratio
+      width: 100%;
+      height: auto;
     }
   }
 
@@ -48,6 +63,10 @@
   .md-profile__description {
     font-size: inherit;
   }
+}
+
+.md-typeset h2{
+  margin-top: 0 !important;
 }
 
 .md-sidebar--post{
