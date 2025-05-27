@@ -23,7 +23,7 @@
 
 .custom-faq-question::after {
   content: "\f078";
-  font-family: 'Font Awesome 6 Pro';
+  font-family: 'Font Awesome 6 Pro', sans-serif;
   font-weight: 100;
   font-size: 1rem;
   position: absolute;
@@ -34,7 +34,7 @@
 
 .custom-faq-question.active::after {
   content: "\f077";
-  font-family: 'Font Awesome 6 Pro';
+  font-family: 'Font Awesome 6 Pro', sans-serif;
   font-weight: 100;
   font-size: 1rem;
 
@@ -46,6 +46,10 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease, padding 0.3s ease;
+  &.active{
+    overflow: visible;
+    padding-bottom: 7px !important;
+  }
 }
 
 .custom-faq-answer.active {
