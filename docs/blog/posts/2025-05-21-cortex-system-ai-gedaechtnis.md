@@ -17,7 +17,7 @@ tags:
 
 <style>
 .md-typeset .mermaid text {
-font-family: var(--md-code-font-family);
+font-family: var(--md-code-font-family), sans-serif;
 fill: white !important;
 }
 .md-typeset .mermaid .node rect,
