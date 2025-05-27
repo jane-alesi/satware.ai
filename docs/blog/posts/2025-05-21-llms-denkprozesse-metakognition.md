@@ -73,10 +73,8 @@ Das sogenannte Faithfulness Gap bleibt bestehen: Erklärungen klingen logisch-me
 
 - **Was ist das?**  
   Attribution Graphs zerlegen neuronale Netze in interpretable Features („Gedankenbausteine") und zeigen deren Wechselwirkungen.
-  
 - **Wie funktioniert es?**  
   Cross-Layer Transcoder extrahieren Features über alle Schichten hinweg; Interventionsexperimente validieren deren Kausalität.
-  
 - **Grenzen:**  
   Aktuell können nur ~25–40% der Modellentscheidungen pro Prompt so erklärt werden; Attention/QK-Circuits bleiben schwer fassbar.
 

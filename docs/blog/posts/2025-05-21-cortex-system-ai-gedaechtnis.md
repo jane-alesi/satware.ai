@@ -236,7 +236,6 @@ Diese strukturierte Herangehensweise an die Wissensintegration ermöglicht es de
 Das Cortex-System ist ein Paradebeispiel für den saTway Ansatz von satware.ai, der technische Exzellenz und menschliche Empathie vereint:
 
 - **saCway** (satware as Code): Das Cortex-System repräsentiert technische Exzellenz durch seine strukturierte Wissensgraph-Architektur, seine zeitliche Bewusstheit und seine effizienten Abrufmechanismen.
-
 - **samWay** (Samantha Way): Das Ergebnis ist eine empathische, menschenzentrierte Interaktion, bei der die KI-Agenten Benutzer wiedererkennen, ihre Präferenzen verstehen und auf ihre individuellen Bedürfnisse eingehen können.
 
 
