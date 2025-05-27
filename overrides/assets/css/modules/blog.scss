@@ -49,3 +49,11 @@
     font-size: inherit;
   }
 }
+
+.md-sidebar--post{
+  .md-nav__link{
+    svg{
+      margin-top: 5px;
+    }
+  }
+}
