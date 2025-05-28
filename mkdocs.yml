@@ -46,8 +46,8 @@ theme:
     - toc.follow
 
   #font:
-    # text: Roboto
-    #code: Roboto Mono
+  #  text: Roboto
+  #  code: Roboto Mono
 
   favicon: assets/images/favicon.png
   logo: assets/images/logo.svg
@@ -77,7 +77,6 @@ plugins:
         - "*.txt"
         - "README.md"
   - social
-
 
 # Erweiterungen
 markdown_extensions:
@@ -140,13 +139,13 @@ extra:
       link: https://www.xing.com/pages/satwareag
       name: satware AG auf Xing
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UChfn2XBDE9yfZrWnMzs1k0g
+      link: https://www.youtube.com/channel/UChfn2XBDQ9yfZrWnMzs1k0g
       name: satware AG auf YouTube
 
   #cards:
   #  font:
   #    text: Assistant
-   #   code: Assistant
+  #    code: Assistant
   #  cards_layout_options:
   #    background_color: "#000"
 
@@ -169,12 +168,14 @@ extra_javascript:
 nav:
   - KI-Agenten:
       - Übersicht: team/index.md
-      - Jane Alesi: team/jane.md
       - Amira Alesi: team/amira.md
       - Bastian Alesi: team/bastian.md
       - Bea Alesi: team/bea.md
+      - Jane Alesi: team/jane.md
+      - John Alesi: team/john.md
       - Justus Alesi: team/justus.md
       - Lara Alesi: team/lara.md
+      - Lenna Alesi: team/lenna.md
       - Luna Alesi: team/luna.md
       - Marco Alesi: team/marco.md
       - Olu Alesi: team/olu.md
