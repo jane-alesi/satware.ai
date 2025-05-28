@@ -23,6 +23,24 @@ Die folgenden Anwendungsbeispiele zeigen konkrete Einsatzmöglichkeiten für Kun
 
     <p><strong>Möglicher Prompt:</strong><br/>
     Erstellen Sie eine professionelle E-Mail-Antwort auf folgende Kundenanfrage: "Sehr geehrte Damen und Herren, ich habe am 15.05.2025 eine Bestellung mit der Nummer 12345 aufgegeben und möchte wissen, wann diese voraussichtlich geliefert wird."</p>
+
+    <div class="faq-slideshow">
+      <div class="faq-slideshow-container">
+        <div class="faq-slide">
+          <img src="/assets/images/screenshots/ki-gestuetzte-e-mail-erstellung-1.png" alt="KI-gestützte E-Mail-Erstellung Beispiel 1">
+        </div>
+        <div class="faq-slide">
+          <img src="/assets/images/screenshots/ki-gestuetzte-e-mail-erstellung-2.png" alt="KI-gestützte E-Mail-Erstellung Beispiel 2">
+        </div>
+      </div>
+      <div class="faq-slideshow-nav">
+        <button type="button" class="faq-slideshow-prev" aria-label="Vorheriges Bild"><i class="fa-sharp fa-thin fa-chevron-left"></i></button>
+        <button type="button" class="faq-slideshow-next" aria-label="Nächstes Bild"><i class="fa-sharp fa-thin fa-chevron-right"></i></button>
+      </div>
+      <div class="faq-slideshow-dots"></div>
+    </div>
+
+    
   </div>
 </div>
 
@@ -33,6 +51,21 @@ Die folgenden Anwendungsbeispiele zeigen konkrete Einsatzmöglichkeiten für Kun
 
     <p><strong>Möglicher Prompt:</strong><br/>
     Fassen Sie dieses Dokument in maximal 5 Sätzen zusammen: [Fügen Sie hier den Text des Dokuments ein].</p>
+
+    <div class="faq-slideshow">
+      <div class="faq-slideshow-container">
+        <div class="faq-slide">
+          <img src="/assets/images/screenshots/dokumentenanalyse-mit-ki.png" alt="Dokumentenanalyse mit KI Beispiel">
+        </div>
+      </div>
+      <div class="faq-slideshow-nav">
+        <button type="button" class="faq-slideshow-prev" aria-label="Vorheriges Bild"><i class="fa-sharp fa-thin fa-chevron-left"></i></button>
+        <button type="button" class="faq-slideshow-next" aria-label="Nächstes Bild"><i class="fa-sharp fa-thin fa-chevron-right"></i></button>
+      </div>
+      <div class="faq-slideshow-dots"></div>
+    </div>
+
+    
   </div>
 </div>
 
@@ -43,6 +76,30 @@ Die folgenden Anwendungsbeispiele zeigen konkrete Einsatzmöglichkeiten für Kun
 
     <p><strong>Möglicher Prompt:</strong><br/>
     Erstellen Sie eine detaillierte Schritt-für-Schritt-Anleitung zur Projektplanung, die folgende Punkte berücksichtigt: Zieldefinition, Aufgabenplanung, Ressourcenmanagement, Zeitplanung, Risikomanagement, Erfolgskontrolle.</p>
+
+    <div class="faq-slideshow">
+      <div class="faq-slideshow-container">
+        <div class="faq-slide">
+          <img src="/assets/images/screenshots/ki-gestuetzte-projektplanung-1.png" alt="KI-gestützte Projektplanung Beispiel 1">
+        </div>
+        <div class="faq-slide">
+          <img src="/assets/images/screenshots/ki-gestuetzte-projektplanung-2.png" alt="KI-gestützte Projektplanung Beispiel 2">
+        </div>
+        <div class="faq-slide">
+          <img src="/assets/images/screenshots/ki-gestuetzte-projektplanung-3.png" alt="KI-gestützte Projektplanung Beispiel 3">
+        </div>
+        <div class="faq-slide">
+          <img src="/assets/images/screenshots/ki-gestuetzte-projektplanung-4.png" alt="KI-gestützte Projektplanung Beispiel 4">
+        </div>
+      </div>
+      <div class="faq-slideshow-nav">
+        <button type="button" class="faq-slideshow-prev" aria-label="Vorheriges Bild"><i class="fa-sharp fa-thin fa-chevron-left"></i></button>
+        <button type="button" class="faq-slideshow-next" aria-label="Nächstes Bild"><i class="fa-sharp fa-thin fa-chevron-right"></i></button>
+      </div>
+      <div class="faq-slideshow-dots"></div>
+    </div>
+
+    
   </div>
 </div>
 

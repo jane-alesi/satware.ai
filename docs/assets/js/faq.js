@@ -38,6 +38,13 @@ function initFAQ() {
                         otherQuestion.nextElementSibling.classList.remove('active');
                     }
                 });
+
+                // Initialisiere Slideshows innerhalb der geöffneten Antwort
+                setTimeout(() => {
+                    if (typeof initSlideshows === 'function') {
+                        initSlideshows();
+                    }
+                }, 100);
             }
         });
     });

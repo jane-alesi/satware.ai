@@ -8,7 +8,7 @@
   overflow: hidden;
   border: 1px solid #d9d9d9;
   padding: 15px 20px;
-  font-size: 18px;
+  //font-size: 18px;
 }
 
 .custom-faq-question {
@@ -23,7 +23,7 @@
 
 .custom-faq-question::after {
   content: "\f078";
-  font-family: 'Font Awesome 6 Pro', sans-serif;
+  font-family: 'Font Awesome 6 Sharp', sans-serif;
   font-weight: 100;
   font-size: 1rem;
   position: absolute;
@@ -34,7 +34,7 @@
 
 .custom-faq-question.active::after {
   content: "\f077";
-  font-family: 'Font Awesome 6 Pro', sans-serif;
+  font-family: 'Font Awesome 6 Sharp', sans-serif;
   font-weight: 100;
   font-size: 1rem;
 
@@ -54,6 +54,5 @@
 
 .custom-faq-answer.active {
   padding: 0;
-  max-height: 1000px; /* Großer Wert, um sicherzustellen, dass der Inhalt vollständig angezeigt wird */
+  max-height: 3000px; /* Größerer Wert, um sicherzustellen, dass der Inhalt vollständig angezeigt wird */
 }
-

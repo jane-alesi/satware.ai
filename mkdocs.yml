@@ -165,6 +165,7 @@ extra_javascript:
   - assets/js/testimonials.js
   - assets/js/wcag.js
   - assets/js/lightbox.js
+  - assets/js/slideshow.js
 
 
 # Navigation

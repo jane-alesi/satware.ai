@@ -1,3 +1,4 @@
+
 window.addEventListener('load', function() {
     // Testimonial-Wechsel-Funktionalität
     const testimonialImages = document.querySelectorAll('.satag--home-testimonial-image-wrapper');
