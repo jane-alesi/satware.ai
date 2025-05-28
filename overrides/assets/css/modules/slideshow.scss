@@ -1,0 +1,121 @@
+/* Slideshow styling for FAQ answers */
+
+.faq-slideshow {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.faq-slideshow-container {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.faq-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  position: relative;
+}
+
+.faq-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.faq-slideshow-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none; /* Allow clicks to pass through to the image */
+  z-index: 10; /* Ensure navigation is above the slides */
+}
+
+button.faq-slideshow-prev,
+button.faq-slideshow-next {
+  width: 0;
+  height: 0;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border-radius: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  pointer-events: auto;
+  //transition: background-color 0.3s ease;
+  transition: .3s all ease;
+  margin: 0 0;
+  color: #fff;
+  z-index: 20;
+  padding: 10px;
+  box-sizing: content-box;
+  border: none;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button.faq-slideshow-prev:hover,
+button.faq-slideshow-next:hover {
+  //background-color: rgba(255, 255, 255, 0.9);
+  color: var(--md-primary-fg-color--light);
+  outline: none; /* Remove focus outline */
+  transition: .3s all ease;
+}
+
+.faq-slideshow-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  pointer-events: auto; /* Make the dots clickable */
+}
+
+.faq-slideshow-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.faq-slideshow-dot.active {
+  background-color: var(--md-primary-fg-color--light);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  button.faq-slideshow-prev,
+  button.faq-slideshow-next {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    /* Increase padding for better touch targets on mobile */
+    padding: 15px;
+  }
+
+  .faq-slideshow-dots {
+    bottom: 5px;
+  }
+
+  .faq-slideshow-dot {
+    width: 8px;
+    height: 8px;
+    /* Increase touch target for dots on mobile */
+    padding: 5px;
+    margin: 0 3px;
+    box-sizing: content-box;
+    display: none;
+  }
+}
