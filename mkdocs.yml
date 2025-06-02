@@ -68,6 +68,11 @@ plugins:
       archive: true
       authors: true
   - search
+  - redirects:
+      redirect_maps:
+        'ja.md': 'team/jane.md'
+        'ja/index.md': 'team/jane.md'
+        'jane.md': 'team/jane.md'
   - minify:
       minify_js: true
       minify_html: true
@@ -206,4 +211,3 @@ nav:
   - Preise: zugang/index.md
   - FAQ: faq/index.md
   - Blog: blog/index.md
-
