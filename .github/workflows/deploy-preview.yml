@@ -1,12 +1,15 @@
-name: Preview Deployment
+name: MkDocs Preview Deployment
 
 on:
-  workflow_dispatch:  # Ermöglicht manuelles Starten
+  workflow_dispatch: # Allows manual triggering
   push:
     branches:
-      - 'feature/**'  # Triggers only on pushes to branches containing '/'
-      - 'fix/**'  # Triggers only on pushes to branches containing '/'
-      - 'blog/**'  # Triggers only on pushes to branches containing '/'
+      - 'feature/**'
+      - 'fix/**'
+      - 'blog/**'
+      - 'build/**'
+      - 'test/**'
+      - 'preview/**'
 
 jobs:
   deploy-preview:
@@ -23,46 +26,47 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Upgrade pip
+      - name: Install MkDocs and plugins
         run: |
-          # install pip=>20.1 to use "pip cache dir"
-          python3 -m pip install --upgrade pip
-
-      - name: Get pip cache dir
-        id: pip-cache
-        run: echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
-
-      - name: Cache dependencies
-        uses: actions/cache@v4
-        with:
-          path: ${{ steps.pip-cache.outputs.dir }}
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      - name: Install dependencies
-        run: python3 -m pip install -r ./requirements.txt
+          pip install --upgrade pip
+          pip install \
+            cairosvg \
+            libsass \
+            mkdocs-exclude \
+            mkdocs-git-revision-date-localized-plugin \
+            mkdocs-glightbox \
+            mkdocs-include-markdown-plugin \
+            mkdocs-literate-nav \
+            mkdocs-macros-plugin \
+            mkdocs-material==9.6.14 \
+            "mkdocs-material[imaging]" \
+            mkdocs-minify-plugin \
+            mkdocs-redirects \
+            mkdocs-rss-plugin \
+            mkdocs-snippets \
+            mkdocs-video \
+            watchdog
 
       - name: Configure site_url for fork preview
         run: |
           # Extract GitHub username and repo name
           GITHUB_USER=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 1)
           REPO_NAME=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 2)
-          
+
           # Update site_url in mkdocs.yml for fork preview
           if grep -q "^site_url:" mkdocs.yml; then
-            sed -i "s|^site_url:.*|site_url: https://$GITHUB_USER.github.io/${REPO_NAME}/|" mkdocs.yml
+            sed -i "s|^site_url:.*|site_url: https://${GITHUB_USER}.github.io/${REPO_NAME}/|" mkdocs.yml
           else
-            echo "site_url: https://$GITHUB_USER.github.io/${REPO_NAME}/" >> mkdocs.yml
+            echo "site_url: https://${GITHUB_USER}.github.io/${REPO_NAME}/" >> mkdocs.yml
           fi
-          
+
           echo "Updated mkdocs.yml for preview deployment:"
           cat mkdocs.yml
 
       - name: Build css
         run: |
-          npm install
-          npm run scss:build
+          mkdir -p docs/assets/css
+          pysassc overrides/assets/css/custom.scss docs/assets/css/custom.css
 
       - name: Build static site
         run: mkdocs build
