@@ -5,7 +5,7 @@ date: 2025-06-04
 authors:
   - tim-friedrich-weber
 categories:
-  - Webinare
+  - Webinar
   - Einsteiger
   - KI-Grundlagen
 tags:
@@ -118,7 +118,7 @@ Während andere KI-Systeme wie eine "Black Box" funktionieren, zeigt Ihnen chat.
 
 - Direkte Antworten von unseren KI-Experten
 - Praktische Tipps für den Einstieg
-- Stellen Sie alle Fragen, die Sie schon immer zur KI interessiert haben
+- **Stellen Sie alle Fragen, die Sie schon immer zur KI interessiert haben**
 
 ## Das sagen unsere Kunden über satware® AI
 
@@ -143,7 +143,7 @@ Während andere KI-Systeme wie eine "Black Box" funktionieren, zeigt Ihnen chat.
 
 - Exklusive Einsteiger-Prompts zum Download
 - Aufzeichnung des Webinars für 30 Tage verfügbar
-- Persönliche Beratung zu Ihren individuellen KI-Fragen
+- **Persönliche Beratung zu Ihren individuellen KI-Fragen**
 
 ## Häufige Fragen
 
@@ -157,7 +157,7 @@ Während andere KI-Systeme wie eine "Black Box" funktionieren, zeigt Ihnen chat.
     Sie erhalten wertvolle Einsteiger-Materialien und können alle Ihre KI-Fragen direkt an unsere Experten stellen – ohne jede Verpflichtung.
 
 ??? question "Kann ich Fragen stellen?"
-    Ja! Die letzten 15 Minuten sind für Ihre Fragen reserviert. Stellen Sie alle Fragen, die Sie schon immer zur KI interessiert haben!
+    Ja! Die letzten 15 Minuten sind für Ihre Fragen reserviert. **Stellen Sie alle Fragen, die Sie schon immer zur KI interessiert haben!**
 
 ## Über satware AG
 
