@@ -18,11 +18,10 @@ führende Unternehmen diese Technologie zur Effizienzsteigerung im Arbeitsalltag
 
 <div class="satag--webinar-dates">
 
-
     <div class="satag--webinar-item">
         <div class="satag--webinar-date"><i class="fa-sharp fa-thin fa-calendar-day"></i> Fr. 06.06.2025</div>
         <div class="satag--webinar-time"><i class="fa-sharp fa-thin fa-clock"></i> 14:00 – 15:00 Uhr</div>
-        <div class="satag--webinar-course">chat.satware.ai Demo für Nutzer, Umsteiger & KI-Interessierte</div>
+        <div class="satag--webinar-course">KI für Alle: Möglichkeiten der satware AI</div>
     </div>
 
     <div class="satag--webinar-item">
@@ -48,6 +47,7 @@ führende Unternehmen diese Technologie zur Effizienzsteigerung im Arbeitsalltag
 ## Aufgezeichnete Webinare
 
 <div class="custom-faq">
+
   <div class="custom-faq-item">
     <div class="custom-faq-question">Multi-Agenten KI-Kollaboration - Luna, Justus & Marco lösen Geschäftsprobleme | Fr. 23.05.25 14:00 Uhr</div>
     <div class="custom-faq-answer"><p><p>Erleben Sie in dieser Aufzeichnung, wie die spezialisierten Alesi KI-Agenten Luna (Coaching &amp; Organisationsentwicklung), Justus (Rechtsexperte) und Marco (Kommunalverwaltungsexperte) kollaborativ an der L&ouml;sung eines komplexen Gesch&auml;ftsproblems arbeiten: der Einf&uuml;hrung einer agilen Organisationsstruktur und eines hybriden Arbeitsmodells. Wir demonstrieren live in chat.satware.ai die F&auml;higkeiten des Systems, basierend auf unserer Advanced Reasoning Architektur und dem propriet&auml;ren saTway-Ansatz (Kombination aus technischer Pr&auml;zision und menschlichem Verst&auml;ndnis). Inhalte der Demo: </p>
@@ -69,6 +69,36 @@ führende Unternehmen diese Technologie zur Effizienzsteigerung im Arbeitsalltag
 </ul>
 <p> Erfahren Sie, wie die Alesi KI-Agenten Unternehmen im DACH-Raum dabei unterst&uuml;tzen, komplexe Herausforderungen effizient und ganzheitlich zu l&ouml;sen.</p>
 <a class="md-button md-button--primary" href="https://www.youtube.com/watch?v=Kvnvzt6hthM" target="_blank" title="Webinar: Multi-Agenten KI-Kollaboration">Zum Webinar</a>
+
+</div>
+  </div>
+
+<div class="custom-faq-item">
+    <div class="custom-faq-question">KI-gestützte Planung & Entscheidungsfindung: satware® KI optimiert Ihre Strategie | Fr. 30.05.25 14:00 Uhr</div>
+    <div class="custom-faq-answer"><p>Erleben Sie in dieser Aufzeichnung, wie unsere spezialisierten KI-Agenten Luna (Coaching &amp; Organisationsentwicklung), Justus (Rechtsanalyse) und Theo (Finanzdatenanalyse) kollaborativ komplexe strategische Herausforderungen analysieren, bewerten und die Entscheidungsfindung unterst&uuml;tzen.</p>
+
+<p>Wir demonstrieren live in chat.satware.ai die F&auml;higkeiten des Systems, basierend auf unserer fortschrittlichen Reasoning-Architektur und dem propriet&auml;ren saTway-Ansatz (Kombination aus technischer Pr&auml;zision und menschlichem Verst&auml;ndnis).</p>
+
+<p>Inhalte der Demo:</p>
+<ul dir="ltr">
+<li>Live-Demo der Alesi KI-Agenten im Einsatz</li>
+<li>Einblicke in die Funktionsweise unserer fortschrittlichen Reasoning-Architektur</li>
+<li>Praxisbeispiele zur KI-gest&uuml;tzten Szenarioplanung und Risikobewertung</li>
+<li>Diskussion zu Transparenz, Erkl&auml;rbarkeit und ethischer KI</li>
+<li>Fragerunde mit Fragen der Teilnehmer</li>
+</ul>
+
+<p>Diskutierte Fragen in der Q&amp;A (aus dem Chat-Protokoll):</p>
+<ul dir="ltr">
+<li>Wie w&uuml;rde das Ergebnis bei erneuter Anfrage aussehen?</li>
+<li>Preismodell und Einf&uuml;hrungsangebot</li>
+<li>Allgemeine Fragen zur Pr&auml;sentation</li>
+</ul>
+
+<p>Erfahren Sie, wie die Alesi KI-Agenten Unternehmen im DACH-Raum dabei unterst&uuml;tzen, komplexe Herausforderungen effizient und ganzheitlich zu l&ouml;sen.</p>
+
+<a class="md-button md-button--primary" href="https://www.youtube.com/watch?v=mDKQ6CtzuTI" target="_blank" title="Webinar: Multi-Agenten KI-Kollaboration">Zum Webinar</a>
+
 
 </div>
   </div>
