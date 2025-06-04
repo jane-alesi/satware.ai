@@ -40,5 +40,6 @@ authors:
     url: https://satware.com/TFW
   satware-team:
     name: satware® AI Team
-    description: Das Team hinter satware® AI
-    avatar: assets/images/team/satware-team.jpg
+    description: satware® AI Team
+    avatar: https://satware.com/media/image/d9/06/c9/bg-ueber-uns.jpg
+    url: https://satware.com/ueber-uns/team/
