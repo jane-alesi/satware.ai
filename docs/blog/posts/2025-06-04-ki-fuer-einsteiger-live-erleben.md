@@ -5,7 +5,7 @@ date: 2025-06-04
 authors:
   - tim-friedrich-weber
 categories:
-  - Webinar
+  - Webinare
   - Einsteiger
   - KI-Grundlagen
 tags:
@@ -118,7 +118,7 @@ Während andere KI-Systeme wie eine "Black Box" funktionieren, zeigt Ihnen chat.
 
 - Direkte Antworten von unseren KI-Experten
 - Praktische Tipps für den Einstieg
-- **Stellen Sie alle Fragen, die Sie schon immer zur KI interessiert haben**
+- Stellen Sie alle Fragen, die Sie schon immer zur KI interessiert haben
 
 ## Das sagen unsere Kunden über satware® AI
 
@@ -142,8 +142,17 @@ Während andere KI-Systeme wie eine "Black Box" funktionieren, zeigt Ihnen chat.
 ### 🎁 **Bonus für Teilnehmer**
 
 - Exklusive Einsteiger-Prompts zum Download
-- Aufzeichnung des Webinars für 30 Tage verfügbar
-- **Persönliche Beratung zu Ihren individuellen KI-Fragen**
+- Aufzeichnung des Webinars verfügbar auf unserem [YouTube-Kanal](https://www.youtube.com/@satwareAG)
+- Persönliche Beratung zu Ihren individuellen KI-Fragen
+
+## 📺 **Weitere Webinare und Aufzeichnungen**
+
+Entdecken Sie unsere komplette Webinar-Serie auf YouTube:
+
+- **YouTube-Kanal**: [satware AG](https://www.youtube.com/@satwareAG)
+- **Webinar-Playlist**: [KI-Webinare für Einsteiger und Fortgeschrittene](https://www.youtube.com/playlist?list=PLQdWTJcuvc1Yy5Z9UPFk3QHHYcD0RtSIs)
+
+Hier finden Sie alle bisherigen Webinar-Aufzeichnungen und können sich schon vorab einen Eindruck von unseren KI-Demonstrationen verschaffen.
 
 ## Häufige Fragen
 
@@ -157,7 +166,10 @@ Während andere KI-Systeme wie eine "Black Box" funktionieren, zeigt Ihnen chat.
     Sie erhalten wertvolle Einsteiger-Materialien und können alle Ihre KI-Fragen direkt an unsere Experten stellen – ohne jede Verpflichtung.
 
 ??? question "Kann ich Fragen stellen?"
-    Ja! Die letzten 15 Minuten sind für Ihre Fragen reserviert. **Stellen Sie alle Fragen, die Sie schon immer zur KI interessiert haben!**
+    Ja! Die letzten 15 Minuten sind für Ihre Fragen reserviert. Stellen Sie alle Fragen, die Sie schon immer zur KI interessiert haben!
+
+??? question "Wird das Webinar aufgezeichnet?"
+    Ja! Die Aufzeichnung wird auf unserem [YouTube-Kanal](https://www.youtube.com/@satwareAG) in der [Webinar-Playlist](https://www.youtube.com/playlist?list=PLQdWTJcuvc1Yy5Z9UPFk3QHHYcD0RtSIs) verfügbar sein.
 
 ## Über satware AG
 
