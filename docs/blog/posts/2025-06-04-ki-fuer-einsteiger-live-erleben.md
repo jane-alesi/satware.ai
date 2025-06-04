@@ -84,7 +84,7 @@ Während andere KI-Systeme wie eine "Black Box" funktionieren, zeigt Ihnen chat.
 ### 🏠 **Für jeden Lebensbereich**
 
 - **Beruf**: Projektorganisation, E-Mail-Verwaltung, Terminplanung
-- **Familie**: Haushaltsorganisation, Kinderbetreuung, Freizeitplanung  
+- **Familie**: Haushaltsorganisation, Kinderbetreuung, Freizeitplanung
 - **Persönlich**: Lernunterstützung, Gesundheitsmanagement, Hobbys
 
 ### 🔒 **Sicher und vertrauenswürdig**
@@ -118,7 +118,7 @@ Während andere KI-Systeme wie eine "Black Box" funktionieren, zeigt Ihnen chat.
 
 - Direkte Antworten von unseren KI-Experten
 - Praktische Tipps für den Einstieg
-- Kostenloser Testzugang
+- Stellen Sie alle Fragen, die Sie schon immer zur KI interessiert haben
 
 ## Das sagen unsere Kunden über satware® AI
 
@@ -141,9 +141,9 @@ Während andere KI-Systeme wie eine "Black Box" funktionieren, zeigt Ihnen chat.
 
 ### 🎁 **Bonus für Teilnehmer**
 
-- Kostenloser 7-Tage-Testzugang zu chat.satware.ai
 - Exklusive Einsteiger-Prompts zum Download
 - Aufzeichnung des Webinars für 30 Tage verfügbar
+- Persönliche Beratung zu Ihren individuellen KI-Fragen
 
 ## Häufige Fragen
 
@@ -154,10 +154,10 @@ Während andere KI-Systeme wie eine "Black Box" funktionieren, zeigt Ihnen chat.
     Ja, komplett kostenlos und unverbindlich.
 
 ??? question "Was passiert nach dem Webinar?"
-    Sie erhalten Zugang zu kostenlosen Testmöglichkeiten – ohne Verpflichtung.
+    Sie erhalten wertvolle Einsteiger-Materialien und können alle Ihre KI-Fragen direkt an unsere Experten stellen – ohne jede Verpflichtung.
 
 ??? question "Kann ich Fragen stellen?"
-    Ja! Die letzten 15 Minuten sind für Ihre Fragen reserviert.
+    Ja! Die letzten 15 Minuten sind für Ihre Fragen reserviert. Stellen Sie alle Fragen, die Sie schon immer zur KI interessiert haben!
 
 ## Über satware AG
 
