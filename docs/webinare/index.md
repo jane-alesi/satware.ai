@@ -21,7 +21,7 @@ führende Unternehmen diese Technologie zur Effizienzsteigerung im Arbeitsalltag
     <div class="satag--webinar-item">
         <div class="satag--webinar-date"><i class="fa-sharp fa-thin fa-calendar-day"></i> Fr. 06.06.2025</div>
         <div class="satag--webinar-time"><i class="fa-sharp fa-thin fa-clock"></i> 14:00 – 15:00 Uhr</div>
-        <div class="satag--webinar-course">KI für Alle: Möglichkeiten der satware AI</div>
+        <div class="satag--webinar-course">KI für Einsteiger – Live erleben</div>
     </div>
 
     <div class="satag--webinar-item">
