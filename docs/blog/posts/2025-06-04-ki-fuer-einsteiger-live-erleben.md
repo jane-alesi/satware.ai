@@ -3,7 +3,7 @@ title: "KI für Einsteiger - Live erleben: Ihr Einstieg in die Welt der künstli
 description: "Entdecken Sie am 6. Juni 2025 um 14:00 Uhr, wie einfach und praktisch KI-Unterstützung in Ihrem Alltag sein kann. Keine Vorkenntnisse erforderlich!"
 date: 2025-06-04
 authors:
-  - satware-team
+  - tim-friedrich-weber
 categories:
   - Webinare
   - Einsteiger
