@@ -65,6 +65,8 @@
   }
 }
 
+
+
 .md-typeset h2{
   margin-top: 0 !important;
 }
@@ -75,4 +77,54 @@
       margin-top: 5px;
     }
   }
+}
+
+.md-typeset .admonition.question, .md-typeset details.question{
+  border-color: #fff;
+}
+
+
+.md-typeset .admonition.info, .md-typeset details.info {
+  border-color: #fff !important;
+}
+
+.admonition{
+    padding: 1.5rem !important;
+    font-size: 100% !important;
+    border-radius: 0 !important;
+
+  .admonition-title{
+    background-color: #000 !important;
+    padding-left: .5rem !important;
+    &:before{
+      display: none !important;
+
+    }
+  }
+
+}
+
+.md-typeset details{
+
+  border-radius: 0 !important;
+  font-size: 100% !important;
+
+  summary{
+    background-color: #000 !important;
+    padding-left: 1rem !important;
+    font-weight: normal !important;
+    &:before{
+      display: none !important;
+    }
+    &:after{
+      color: #fff !important;
+      top: .8rem !important;
+    }
+  }
+
+}
+
+.question{
+
+
 }
