@@ -1,0 +1,130 @@
+// Blog styling
+
+// Blog post title styling
+.md-post__title {
+  margin-top: 0; // Remove margin-top for H2 elements on blog page
+}
+
+// Blog post meta styling (date display)
+.md-post__meta {
+  margin-bottom: 0.5rem; // Add some space between date and title
+  //font-size: 0.9rem; // Slightly smaller than normal text
+  color: var(--md-default-fg-color--light); // Lighter color for the date
+
+}
+
+// Author styling in blog posts
+.md-post__authors.md-typeset {
+  font-size: 1.3rem; // Match the general text size of the website
+
+  // General author styling
+  .md-author {
+    img {
+      // Make the author image significantly larger
+      width: 3.5rem; // Much larger than default
+      height: 3.5rem; // Maintain aspect ratio
+      border-radius: 50%; // Keep the circular shape
+    }
+  }
+
+  // Long author format (used in blog post sidebar)
+  .md-author--long {
+    img {
+      //width: 4rem; // Even larger for the long format
+      //height: 4rem; // Maintain aspect ratio
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  // Author profile description
+  .md-profile__description {
+    font-size: 1.3rem; // Match the general text size of the website
+    line-height: 1.6; // Improve readability
+  }
+
+  // Profile container
+  .md-profile.md-post__profile {
+    margin-bottom: 1rem; // Add some spacing between multiple authors
+  }
+}
+
+// Blog sidebar styling - make all text in the sidebar 80% of the normal size
+.md-sidebar__inner.md-post {
+  font-size: 80%; // Set font size to 80% of the parent element
+
+  // Ensure all child elements inherit the font size
+  * {
+    font-size: inherit;
+  }
+
+  // Override specific font sizes that were previously set
+  .md-post__authors.md-typeset,
+  .md-profile__description {
+    font-size: inherit;
+  }
+}
+
+
+
+.md-typeset h2{
+  margin-top: 0 !important;
+}
+
+.md-sidebar--post{
+  .md-nav__link{
+    svg{
+      margin-top: 5px;
+    }
+  }
+}
+
+.md-typeset .admonition.question, .md-typeset details.question{
+  border-color: #fff;
+}
+
+
+.md-typeset .admonition.info, .md-typeset details.info {
+  border-color: #fff !important;
+}
+
+.admonition{
+    padding: 1.5rem !important;
+    font-size: 100% !important;
+    border-radius: 0 !important;
+
+  .admonition-title{
+    background-color: #000 !important;
+    padding-left: .5rem !important;
+    &:before{
+      display: none !important;
+
+    }
+  }
+
+}
+
+.md-typeset details{
+
+  border-radius: 0 !important;
+  font-size: 100% !important;
+
+  summary{
+    background-color: #000 !important;
+    padding-left: 1rem !important;
+    font-weight: normal !important;
+    &:before{
+      display: none !important;
+    }
+    &:after{
+      color: #fff !important;
+      top: .8rem !important;
+    }
+  }
+
+}
+
+.question{
+
+
+}
