@@ -1,0 +1,65 @@
+# 🚀 Automated Preview Deployment (Optional)
+# Add this job to your .gitlab-ci.yml if you want automated preview deployment
+
+deploy_preview_automated:
+  stage: deploy
+  image: alpine:latest
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^(feature|fix|blog|test|preview)\/.*/
+  before_script:
+    # Install SSH and rsync
+    - apk add --no-cache openssh-client rsync
+    
+    # Setup SSH key
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan -H $DEPLOY_SERVER >> ~/.ssh/known_hosts
+    
+  script:
+    # Extract clean branch name
+    - BRANCH_PATH=$(echo "${CI_COMMIT_REF_NAME}" | sed 's|feature/||g' | sed 's|fix/||g' | sed 's|blog/||g' | sed 's|[^a-zA-Z0-9-]|-|g' | tr '[:upper:]' '[:lower:]')
+    - PREVIEW_URL="${PREVIEW_BASE_URL}/${BRANCH_PATH}/"
+    
+    # Deploy to server
+    - echo "🚀 Deploying preview to ${DEPLOY_SERVER}:${DEPLOY_PATH}/${BRANCH_PATH}/"
+    - rsync -avz --delete site/ ${DEPLOY_USER}@${DEPLOY_SERVER}:${DEPLOY_PATH}/${BRANCH_PATH}/
+    
+    # Verify deployment
+    - echo "✅ Preview deployed successfully!"
+    - echo "📍 URL: ${PREVIEW_URL}"
+    
+    # Optional: Send notification
+    - |
+      curl -X POST -H 'Content-type: application/json' \
+           --data "{\"text\":\"🔍 Preview deployed: ${PREVIEW_URL}\"}" \
+           "$SLACK_WEBHOOK_URL" || true
+
+  environment:
+    name: preview/${CI_COMMIT_REF_SLUG}
+    url: ${PREVIEW_BASE_URL}/${BRANCH_PATH}/
+    on_stop: cleanup_preview_automated
+
+# 🧹 Automated Preview Cleanup
+cleanup_preview_automated:
+  stage: cleanup
+  image: alpine:latest
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^(feature|fix|blog|test|preview)\/.*/
+      when: manual
+  before_script:
+    - apk add --no-cache openssh-client
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan -H $DEPLOY_SERVER >> ~/.ssh/known_hosts
+  script:
+    - BRANCH_PATH=$(echo "${CI_COMMIT_REF_NAME}" | sed 's|feature/||g' | sed 's|fix/||g' | sed 's|blog/||g' | sed 's|[^a-zA-Z0-9-]|-|g' | tr '[:upper:]' '[:lower:]')
+    - echo "🧹 Cleaning up preview: ${DEPLOY_PATH}/${BRANCH_PATH}/"
+    - ssh ${DEPLOY_USER}@${DEPLOY_SERVER} "rm -rf ${DEPLOY_PATH}/${BRANCH_PATH}/"
+    - echo "✅ Preview cleanup completed"
+  environment:
+    name: preview/${CI_COMMIT_REF_SLUG}
+    action: stop
