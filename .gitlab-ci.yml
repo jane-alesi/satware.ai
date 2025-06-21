@@ -7,15 +7,12 @@ stages:
   - cleanup
 
 variables:
-  # Python and dependency versions (matching GitHub Actions exactly)
   PYTHON_VERSION: "3.13"
   MKDOCS_MATERIAL_VERSION: "9.6.14"
-  
-  # Site configuration
   PRODUCTION_URL: "https://satware.ai"
   PREVIEW_BASE_URL: "https://satware.ai"
 
-# 🔧 Build Job Template (shared between production and preview)
+# Build Job Template
 .build_template:
   image: python:${PYTHON_VERSION}-slim
   cache:
@@ -24,42 +21,13 @@ variables:
       - .cache/
       - venv/
   before_script:
-    # Install system dependencies for MkDocs Material
-    - apt-get update && apt-get install -y 
-        build-essential 
-        git 
-        libcairo2-dev 
-        libfreetype6-dev 
-        libffi-dev 
-        libjpeg-dev 
-        libpng-dev 
-        libz-dev
-    
-    # Setup Python virtual environment
+    - apt-get update && apt-get install -y build-essential git libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
     - python -m venv venv
     - source venv/bin/activate
     - pip install --upgrade pip
-    
-    # Install exact same dependencies as GitHub Actions
-    - pip install 
-        cairosvg 
-        libsass 
-        mkdocs-exclude 
-        mkdocs-git-revision-date-localized-plugin 
-        mkdocs-glightbox 
-        mkdocs-include-markdown-plugin 
-        mkdocs-literate-nav 
-        mkdocs-macros-plugin 
-        mkdocs-material==${MKDOCS_MATERIAL_VERSION}
-        "mkdocs-material[imaging]" 
-        mkdocs-minify-plugin 
-        mkdocs-redirects 
-        mkdocs-rss-plugin 
-        mkdocs-snippets 
-        mkdocs-video 
-        watchdog
+    - pip install cairosvg libsass mkdocs-exclude mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-include-markdown-plugin mkdocs-literate-nav mkdocs-macros-plugin mkdocs-material==${MKDOCS_MATERIAL_VERSION} "mkdocs-material[imaging]" mkdocs-minify-plugin mkdocs-redirects mkdocs-rss-plugin mkdocs-snippets mkdocs-video watchdog
 
-# 🌐 Production Deployment (main branch -> https://satware.ai)
+# Production Deployment
 pages:
   extends: .build_template
   stage: deploy
@@ -68,36 +36,23 @@ pages:
     - if: $CI_COMMIT_REF_NAME == "main"
   script:
     - source venv/bin/activate
-    
-    # Build custom CSS from SCSS (exactly like GitHub Actions)
     - mkdir -p docs/assets/css
     - pysassc overrides/assets/css/custom.scss docs/assets/css/custom.css
-    
-    # Production deployment - keep original site_url
     - echo "📍 Production deployment to ${PRODUCTION_URL}"
-    - echo "Site URL:" $(grep '^site_url:' mkdocs.yml)
-    
-    # Build the static site
+    - grep '^site_url:' mkdocs.yml || echo "No site_url found"
     - echo "🏗️ Building MkDocs site..."
     - mkdocs build --verbose
-    
-    # Prepare for GitLab Pages (requires 'public' directory)
     - echo "📦 Preparing production deployment..."
     - mv site public
-    
-    # Generate deployment info
     - echo "DEPLOYMENT_URL=${PRODUCTION_URL}" > deploy.env
     - echo "DEPLOYMENT_TYPE=production" >> deploy.env
     - echo "BRANCH=${CI_COMMIT_REF_NAME}" >> deploy.env
     - echo "COMMIT=${CI_COMMIT_SHA}" >> deploy.env
-    
-    # Deployment summary
-    - echo "🚀 Production deployment ready:"
-    - echo "   📍 URL:" ${PRODUCTION_URL}
-    - echo "   🌿 Branch:" ${CI_COMMIT_REF_NAME}
-    - echo "   📦 Files:" $(find public -type f | wc -l)
-    - echo "   💾 Size:" $(du -sh public | cut -f1)
-
+    - echo "🚀 Production deployment ready"
+    - echo "   📍 URL ${PRODUCTION_URL}"
+    - echo "   🌿 Branch ${CI_COMMIT_REF_NAME}"
+    - find public -type f | wc -l | xargs echo "   📦 Files"
+    - du -sh public | cut -f1 | xargs echo "   💾 Size"
   artifacts:
     paths:
       - public
@@ -107,7 +62,7 @@ pages:
     name: production
     url: ${PRODUCTION_URL}
 
-# 🔍 Preview Deployment (feature branches -> https://satware.ai/feature/xyz)
+# Preview Deployment
 preview:
   extends: .build_template
   stage: deploy
@@ -117,81 +72,44 @@ preview:
     - if: $CI_COMMIT_REF_NAME =~ /^(develop|staging)$/
   script:
     - source venv/bin/activate
-    
-    # Build custom CSS from SCSS
     - mkdir -p docs/assets/css
     - pysassc overrides/assets/css/custom.scss docs/assets/css/custom.css
-    
-    # Configure site_url for preview deployment
-    - echo "🔍 Preview deployment for branch:" ${CI_COMMIT_REF_NAME}
-    # Extract clean branch name for URL path
+    - echo "🔍 Preview deployment for branch ${CI_COMMIT_REF_NAME}"
     - BRANCH_PATH=$(echo "${CI_COMMIT_REF_NAME}" | sed 's|feature/||g' | sed 's|fix/||g' | sed 's|blog/||g' | sed 's|[^a-zA-Z0-9-]|-|g' | tr '[:upper:]' '[:lower:]')
     - PREVIEW_URL="${PREVIEW_BASE_URL}/${BRANCH_PATH}/"
-    
-    - echo "📝 Updating site_url to:" ${PREVIEW_URL}
-    # Update site_url for preview deployment
-    - |
-      if grep -q "^site_url:" mkdocs.yml; then
-        sed -i "s|^site_url:.*|site_url: ${PREVIEW_URL}|" mkdocs.yml
-      else
-        echo "site_url: ${PREVIEW_URL}" >> mkdocs.yml
-      fi
-    
-    # Also update use_directory_urls for better preview navigation
-    - |
-      if grep -q "^use_directory_urls:" mkdocs.yml; then
-        sed -i "s|^use_directory_urls:.*|use_directory_urls: true|" mkdocs.yml
-      fi
-    
-    - echo "✅ Updated mkdocs.yml for preview:"
-    - grep -E "^(site_url|use_directory_urls):" mkdocs.yml
-    
-    # Build the static site
+    - echo "📝 Updating site_url to ${PREVIEW_URL}"
+    - cp mkdocs.yml mkdocs.yml.backup
+    - sed -i "s|^site_url:.*|site_url: ${PREVIEW_URL}|" mkdocs.yml
+    - sed -i "s|^use_directory_urls:.*|use_directory_urls: true|" mkdocs.yml
+    - echo "✅ Updated mkdocs.yml for preview"
+    - grep -E "^(site_url|use_directory_urls):" mkdocs.yml || echo "Config updated"
     - echo "🏗️ Building MkDocs site..."
     - mkdocs build --verbose
-    
-    # For preview, create a deployable artifact
     - mkdir -p preview-deploy/${BRANCH_PATH}
     - cp -r site/* preview-deploy/${BRANCH_PATH}/
-    
-    # Generate deployment info
     - echo "DEPLOYMENT_URL=${PREVIEW_URL}" > deploy.env
     - echo "DEPLOYMENT_TYPE=preview" >> deploy.env
     - echo "BRANCH=${CI_COMMIT_REF_NAME}" >> deploy.env
     - echo "BRANCH_PATH=${BRANCH_PATH}" >> deploy.env
     - echo "COMMIT=${CI_COMMIT_SHA}" >> deploy.env
-    
-    # Create deployment instructions
-    - |
-      cat > DEPLOY_INSTRUCTIONS.md << EOF
-      # 🔍 Preview Deployment Instructions
-      
-      **Branch:** \`${CI_COMMIT_REF_NAME}\`  
-      **Preview URL:** ${PREVIEW_URL}  
-      **Commit:** \`${CI_COMMIT_SHA}\`  
-      
-      ## Manual Deployment Steps:
-      
-      1. Download the \`preview-deploy\` artifact from this pipeline
-      2. Extract to your satware.ai server under path: \`/${BRANCH_PATH}/\`
-      3. Ensure web server serves files from this location
-      4. Access preview at: ${PREVIEW_URL}
-      
-      ## Automated Deployment (Future):
-      Configure rsync/ssh to automatically deploy to your server:
-      \`\`\`bash
-      rsync -avz --delete preview-deploy/${BRANCH_PATH}/ user@satware.ai:/var/www/satware.ai/${BRANCH_PATH}/
-      \`\`\`
-      EOF
-    
-    # Preview summary
-    - echo "🔍 Preview deployment ready:"
-    - echo "   📍 URL:" ${PREVIEW_URL}
-    - echo "   🌿 Branch:" ${CI_COMMIT_REF_NAME}
-    - echo "   📁 Path: /${BRANCH_PATH}/"
-    - echo "   📦 Files:" $(find preview-deploy -type f | wc -l)
-    - echo "   💾 Size:" $(du -sh preview-deploy | cut -f1)
-
+    - echo "# Preview Deployment Instructions" > DEPLOY_INSTRUCTIONS.md
+    - echo "" >> DEPLOY_INSTRUCTIONS.md
+    - echo "**Branch:** \`${CI_COMMIT_REF_NAME}\`" >> DEPLOY_INSTRUCTIONS.md
+    - echo "**Preview URL:** ${PREVIEW_URL}" >> DEPLOY_INSTRUCTIONS.md
+    - echo "**Commit:** \`${CI_COMMIT_SHA}\`" >> DEPLOY_INSTRUCTIONS.md
+    - echo "" >> DEPLOY_INSTRUCTIONS.md
+    - echo "## Manual Deployment Steps:" >> DEPLOY_INSTRUCTIONS.md
+    - echo "" >> DEPLOY_INSTRUCTIONS.md
+    - echo "1. Download the \`preview-deploy\` artifact from this pipeline" >> DEPLOY_INSTRUCTIONS.md
+    - echo "2. Extract to your satware.ai server under path: \`/${BRANCH_PATH}/\`" >> DEPLOY_INSTRUCTIONS.md
+    - echo "3. Ensure web server serves files from this location" >> DEPLOY_INSTRUCTIONS.md
+    - echo "4. Access preview at: ${PREVIEW_URL}" >> DEPLOY_INSTRUCTIONS.md
+    - echo "🔍 Preview deployment ready"
+    - echo "   📍 URL ${PREVIEW_URL}"
+    - echo "   🌿 Branch ${CI_COMMIT_REF_NAME}"
+    - echo "   📁 Path /${BRANCH_PATH}/"
+    - find preview-deploy -type f | wc -l | xargs echo "   📦 Files"
+    - du -sh preview-deploy | cut -f1 | xargs echo "   💾 Size"
   artifacts:
     paths:
       - preview-deploy/
@@ -204,7 +122,7 @@ preview:
     url: ${PREVIEW_BASE_URL}/${BRANCH_PATH}/
     on_stop: cleanup_preview
 
-# 🧹 Cleanup Preview Environments (when branch is deleted)
+# Cleanup Preview
 cleanup_preview:
   stage: cleanup
   image: alpine:latest
@@ -215,14 +133,12 @@ cleanup_preview:
   script:
     - BRANCH_PATH=$(echo "${CI_COMMIT_REF_NAME}" | sed 's|feature/||g' | sed 's|fix/||g' | sed 's|blog/||g' | sed 's|[^a-zA-Z0-9-]|-|g' | tr '[:upper:]' '[:lower:]')
     - echo "🧹 Cleanup preview environment for ${CI_COMMIT_REF_NAME}"
-    - echo "Manual cleanup required - remove files from server path: /${BRANCH_PATH}/"
-    # Add your cleanup commands here, e.g.:
-    # - ssh user@satware.ai "rm -rf /var/www/satware.ai/${BRANCH_PATH}/"
+    - echo "Manual cleanup required - remove files from server path /${BRANCH_PATH}/"
   environment:
     name: preview/${CI_COMMIT_REF_SLUG}
     action: stop
 
-# 📊 Build Information Job (runs on all branches for debugging)
+# Build Information
 build_info:
   stage: build
   image: alpine:latest
@@ -230,13 +146,13 @@ build_info:
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     - if: $CI_COMMIT_REF_NAME =~ /.*/
   script:
-    - echo "🔍 Build Information:"
-    - echo "   📁 Repository:" ${CI_PROJECT_PATH}
-    - echo "   🌿 Branch:" ${CI_COMMIT_REF_NAME}
-    - echo "   📝 Commit:" ${CI_COMMIT_SHA:0:8}
-    - echo "   👤 Author:" ${GITLAB_USER_NAME}
-    - echo "   📅 Pipeline:" ${CI_PIPELINE_ID}
-    - echo "   🔗 URL:" ${CI_PIPELINE_URL}
+    - echo "🔍 Build Information"
+    - echo "   📁 Repository ${CI_PROJECT_PATH}"
+    - echo "   🌿 Branch ${CI_COMMIT_REF_NAME}"
+    - echo "   📝 Commit ${CI_COMMIT_SHA:0:8}"
+    - echo "   👤 Author ${GITLAB_USER_NAME}"
+    - echo "   📅 Pipeline ${CI_PIPELINE_ID}"
+    - echo "   🔗 URL ${CI_PIPELINE_URL}"
     - |
       if [ "$CI_COMMIT_REF_NAME" = "main" ] || [ "$CI_COMMIT_REF_NAME" = "main-mkdocs" ]; then
         echo "   🚀 Deployment: Production (${PRODUCTION_URL})"
