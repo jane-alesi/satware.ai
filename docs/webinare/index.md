@@ -19,12 +19,6 @@ führende Unternehmen diese Technologie zur Effizienzsteigerung im Arbeitsalltag
 <div class="satag--webinar-dates">
 
     <div class="satag--webinar-item">
-        <div class="satag--webinar-date"><i class="fa-sharp fa-thin fa-calendar-day"></i> Fr. 24.10.2025</div>
-        <div class="satag--webinar-time"><i class="fa-sharp fa-thin fa-clock"></i> 14:00 – 15:00 Uhr</div>
-        <div class="satag--webinar-course">chat.satware.ai Demo für Nutzer, Umsteiger & KI-Interessierte</div>
-    </div>
-
-    <div class="satag--webinar-item">
         <div class="satag--webinar-date"><i class="fa-sharp fa-thin fa-calendar-day"></i> Fr. 31.10.2025</div>
         <div class="satag--webinar-time"><i class="fa-sharp fa-thin fa-clock"></i> 14:00 – 15:00 Uhr</div>
         <div class="satag--webinar-course">chat.satware.ai Demo für Nutzer, Umsteiger & KI-Interessierte</div>
@@ -32,6 +26,12 @@ führende Unternehmen diese Technologie zur Effizienzsteigerung im Arbeitsalltag
 
     <div class="satag--webinar-item">
         <div class="satag--webinar-date"><i class="fa-sharp fa-thin fa-calendar-day"></i> Fr. 07.11.2025</div>
+        <div class="satag--webinar-time"><i class="fa-sharp fa-thin fa-clock"></i> 14:00 – 15:00 Uhr</div>
+        <div class="satag--webinar-course">chat.satware.ai Demo für Nutzer, Umsteiger & KI-Interessierte</div>
+    </div>
+
+    <div class="satag--webinar-item">
+        <div class="satag--webinar-date"><i class="fa-sharp fa-thin fa-calendar-day"></i> Fr. 14.11.2025</div>
         <div class="satag--webinar-time"><i class="fa-sharp fa-thin fa-clock"></i> 14:00 – 15:00 Uhr</div>
         <div class="satag--webinar-course">chat.satware.ai Demo für Nutzer, Umsteiger & KI-Interessierte</div>
     </div>
