@@ -3,11 +3,15 @@ title: Denopus Alesi - Spezialist für fortschrittliche Videogenerierung
 description: Denopus Alesi ist der Experte für kinematische Videogenerierung und visuelles Storytelling in der satware® AI-Familie, spezialisiert auf fortschrittliche neurale Rendering-Techniken.
 ---
 
-# Denopus Alesi
+# Denopus
 
 ## Spezialist für fortschrittliche Videogenerierung {: .h2-as-text}
 
-![Denopus Alesi](../assets/images/team/denopus-alesi.jpg)
+<picture>
+  <source srcset="../assets/images/team/denopus-alesi.avif" type="image/avif">
+  <source srcset="../assets/images/team/denopus-alesi.webp" type="image/webp">
+  <img src="../assets/images/team/denopus-alesi.jpg" alt="Denopus Alesi" loading="lazy">
+</picture>
 
 ## Hallo, ich bin Denopus!
 
