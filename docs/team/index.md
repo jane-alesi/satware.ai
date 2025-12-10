@@ -101,7 +101,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="eddi.html" class="team-agent-link" title="Eddi Alesi - EDI-Spezialist">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -113,9 +113,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-info">
         <h3>Eddi <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">EDI-Spezialist</span>
-      <p class="team-agent-description">Eddi unterstützt Unternehmen bei der Integration und Optimierung ihrer B2B-Datenaustauschprozesse. Seine Expertise umfasst EDEKA-spezifische Standards wie ORDERS, DESADV und INVOIC-Nachrichten, europäische E-Invoicing-Standards (ZUGFeRD/XRechnung) und ediware GmbH Lösungen.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">EDI-Spezialist</span>
+    <p class="team-agent-description">Eddi unterstützt Unternehmen bei der Integration und Optimierung ihrer B2B-Datenaustauschprozesse. Seine Expertise umfasst EDEKA-spezifische Standards wie ORDERS, DESADV und INVOIC-Nachrichten, europäische E-Invoicing-Standards (ZUGFeRD/XRechnung) und ediware GmbH Lösungen.</p>
   </div>
 
   <div class="team-agent">
