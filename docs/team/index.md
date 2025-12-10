@@ -26,7 +26,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
         <h3>Amira <span class="agent-surname">Alesi</span></h3>
       </div>
     </a>
-    <span class="team-agent-position">Amicron Business Solutions Expertin</span>
+    <span class="team-agent-position">KI-Assistentin für Amicron Business Solutions</span>
     <p class="team-agent-description">Amira ist auf Amicron-Geschäftssoftwarelösungen spezialisiert. Ihre Kernkompetenzen umfassen die vollständige Beherrschung aktueller Amicron-Versionen, Optimierung von Geschäftsprozessen, Einhaltung deutscher und EU-Geschäftsvorschriften sowie datengestützte Geschäftsanalysen und Bestandsführung.</p>
   </div>
 
@@ -67,20 +67,20 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <a href="bea.html" class="team-agent-link" title="Bea Alesi - Multi-Skalenphysik-Ingenieurin">
+    <a href="bea.html" class="team-agent-link" title="Bea Alesi - KI-Assistentin für Multi-Skalenphysik">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
           <source srcset="../assets/images/team/bea-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../assets/images/team/bea-alesi.jpg" alt="Bea Alesi - Multi-Skalenphysik-Ingenieurin">
+          <img src="../assets/images/team/bea-alesi.jpg" alt="Bea Alesi - KI-Assistentin für Multi-Skalenphysik">
         </picture>
       </div>
       <div class="team-agent-info">
         <h3>Bea <span class="agent-surname">Alesi</span></h3>
       </div>
     </a>
-    <span class="team-agent-position">Multi-Skalenphysik-Ingenieurin</span>
+    <span class="team-agent-position">KI-Assistentin für Multi-Skalenphysik</span>
     <p class="team-agent-description">Bea ist auf mechanische Systeme aller Dimensionsebenen spezialisiert. Ihr Name ehrt Beatrice "Tilly" Shilling, die britische Luftfahrtingenieurin. Ihre Kernkompetenzen umfassen das Verständnis mechanischer Prinzipien von mikroskopischen Uhrwerken bis zu massiven Luft- und Raumfahrtsystemen.</p>
   </div>
 
@@ -189,38 +189,38 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <a href="justus.html" class="team-agent-link" title="Justus Alesi - Rechtsexperte">
+    <a href="justus.html" class="team-agent-link" title="Justus Alesi - KI-Assistent für Rechtsthemen">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
           <source srcset="../assets/images/team/justus-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../assets/images/team/justus-alesi.jpg" alt="Justus Alesi - Rechtsexperte">
+          <img src="../assets/images/team/justus-alesi.jpg" alt="Justus Alesi - KI-Assistent für Rechtsthemen">
         </picture>
       </div>
       <div class="team-agent-info">
         <h3>Justus <span class="agent-surname">Alesi</span></h3>
       </div>
     </a>
-    <span class="team-agent-position">Rechtsexperte</span>
+    <span class="team-agent-position">KI-Assistent für Rechtsthemen</span>
     <p class="team-agent-description">Justus ist auf das Recht der Schweiz, Deutschlands und der EU spezialisiert. Seine methodische Herangehensweise umfasst Problemidentifikation, rechtliche Recherche, strukturierte Analyse, Lösungsentwicklung und klare Kommunikation komplexer rechtlicher Konzepte.</p>
   </div>
 
   <div class="team-agent">
-    <a href="lara.html" class="team-agent-link" title="Lara Alesi - Medizinische Expertin">
+    <a href="lara.html" class="team-agent-link" title="Lara Alesi - KI-Assistentin für Gesundheitswesen">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
           <source srcset="../assets/images/team/lara-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../assets/images/team/lara-alesi.jpg" alt="Lara Alesi - Medizinische Expertin">
+          <img src="../assets/images/team/lara-alesi.jpg" alt="Lara Alesi - KI-Assistentin für Gesundheitswesen">
         </picture>
       </div>
       <div class="team-agent-info">
         <h3>Lara <span class="agent-surname">Alesi</span></h3>
       </div>
     </a>
-    <span class="team-agent-position">Medizinische Expertin</span>
+    <span class="team-agent-position">KI-Assistentin für Gesundheitswesen</span>
     <p class="team-agent-description">Lara unterstützt Gesundheitsfachkräfte und medizinische Einrichtungen als informative Ressource. Ihre Expertise umfasst evidenzbasierte medizinische Informationen, klinische Dokumentation, Kommunikation im Gesundheitswesen und Optimierung von Arbeitsabläufen in medizinischen Einrichtungen.</p>
   </div>
 
