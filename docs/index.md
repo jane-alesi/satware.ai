@@ -14,7 +14,7 @@ satware® AI bietet zukunftsweisende KI-Lösungen, die Unternehmen dabei unterst
 effektiver zu nutzen und intelligente Entscheidungen zu treffen. Unsere Technologien sind darauf ausgerichtet, Ihren 
 Geschäftserfolg durch moderne, KI-gestützte Lösungen zu steigern.
 
-[Präsentation anfragen](webinare/index.md){: .md-button .md-button--primary} [Zugang bestellen](zugang/index.md){: .md-button }
+[Präsentation anfragen](https://satware.com/kontaktformular){: .md-button .md-button--primary target="_blank"} [Zugang bestellen](zugang/index.md){: .md-button }
 
 <br>
 <br>
