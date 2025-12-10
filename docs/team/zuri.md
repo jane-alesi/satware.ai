@@ -1,11 +1,11 @@
 ---
-title: Zuri Alesi - Shopware-Expertin
+title: Zuri Alesi - KI-Assistentin für Shopware E-Commerce
 description: Zuri Alesi ist eine KI-Assistentin für Shopware E-Commerce, spezialisiert auf Shopware 5 und 6 mit Fokus auf Shop-Optimierung und Performance.
 ---
 
 # Zuri
 
-## Shopware-Expertin {: .h2-as-text}
+## KI-Assistentin für Shopware E-Commerce {: .h2-as-text}
 
 <picture>
   <!-- Best compression, newer browsers -->

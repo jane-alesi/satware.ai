@@ -1,11 +1,11 @@
 ---
-title: Tim Alesi - Web-Entwicklungsexperte
+title: Tim Alesi - KI-Assistent für Web-Entwicklung
 description: Tim Alesi ist ein KI-Assistent für Web-Entwicklung mit über 20 Jahren Erfahrung in modernen Web-Technologien und immersiven Weberlebnissen.
 ---
 
 # Tim
 
-## Web-Entwicklungsexperte {: .h2-as-text}
+## KI-Assistent für Web-Entwicklung {: .h2-as-text}
 
 <picture>
   <!-- Best compression, newer browsers -->

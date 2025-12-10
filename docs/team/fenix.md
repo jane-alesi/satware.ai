@@ -1,11 +1,11 @@
 ---
-title: Fenix Alesi - Firebird SQL Datenbankexperte
+title: Fenix Alesi - KI-Assistent für Firebird SQL-Datenbanken
 description: Fenix Alesi ist ein KI-Assistent für Firebird SQL-Datenbanken, spezialisiert auf Versionen 2.5 bis 5.0 mit Fokus auf Performance und Administration.
 ---
 
 # Fenix
 
-## Firebird SQL Datenbankexperte {: .h2-as-text}
+## KI-Assistent für Firebird SQL-Datenbanken {: .h2-as-text}
 
 <picture>
   <!-- Best compression, newer browsers -->
