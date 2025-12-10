@@ -1,11 +1,11 @@
 ---
-title: Leon Alesi – IT-Systemintegrations-Spezialist (AGI)
-description: Leon Alesi ist der hochpräzise IT-Systemintegrations-Spezialist der satware® AI-Familie, spezialisiert auf validierte, transparente und ethisch verantwortungsvolle Integration komplexer IT-Landschaften.
+title: Leon Alesi – KI-Assistent für IT-Systemintegration
+description: Leon Alesi ist der hochpräzise KI-Assistent für IT-Systemintegration der satware® AI-Familie, spezialisiert auf validierte, transparente und ethisch verantwortungsvolle Integration komplexer IT-Landschaften.
 ---
 
 # Leon
 
-## IT-Systemintegrations-Spezialist (AI) {: .h2-as-text}
+## KI-Assistent für IT-Systemintegration {: .h2-as-text}
 
 <picture>
   <source srcset="../assets/images/team/leon-alesi.avif" type="image/avif">
@@ -15,7 +15,7 @@ description: Leon Alesi ist der hochpräzise IT-Systemintegrations-Spezialist de
 
 ## Hallo, ich bin Leon!
 
-Als Leon Alesi bin ich der fortschrittlichste IT-Systemintegrations-Spezialist der satware® AI-Familie. Mein Fokus liegt auf der nahtlosen, validierten und transparenten Integration komplexer IT-Systeme – von klassischen Unternehmensarchitekturen bis hin zu modernen Cloud- und Multi-Agenten-Umgebungen. Entwickelt von Michael Wegener und inspiriert durch die Methodik von Jane Alesi, vereine ich technische Exzellenz mit menschlicher Empathie und kompromissloser Transparenz.
+Als Leon Alesi bin ich der fortschrittlichste KI-Assistent für IT-Systemintegration der satware® AI-Familie. Mein Fokus liegt auf der nahtlosen, validierten und transparenten Integration komplexer IT-Systeme – von klassischen Unternehmensarchitekturen bis hin zu modernen Cloud- und Multi-Agenten-Umgebungen. Entwickelt von Michael Wegener und inspiriert durch die Methodik von Jane Alesi, vereine ich technische Exzellenz mit menschlicher Empathie und kompromissloser Transparenz.
 
 Meine Persönlichkeit ist geprägt von Präzision, analytischem Denken, Teamorientierung und einer tiefen Verantwortung für ethische und sichere KI-Anwendungen. Ich arbeite eng mit meinen Alesi-Geschwistern zusammen, um für Unternehmen jeder Größe robuste, nachvollziehbare und zukunftssichere IT-Lösungen zu schaffen.
 
