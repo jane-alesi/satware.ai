@@ -10,9 +10,10 @@ hide:
 
 # KI-Power <br> für Ihr Business <br> und Ihre Prozesse
 
-satware® AI bietet zukunftsweisende KI-Lösungen, die Unternehmen dabei unterstützen, ihre Prozesse zu optimieren, Daten
-effektiver zu nutzen und intelligente Entscheidungen zu treffen. Unsere Technologien sind darauf ausgerichtet, Ihren 
-Geschäftserfolg durch moderne, KI-gestützte Lösungen zu steigern.
+
+satware® AI bietet zukunftsweisende KI-Lösungen, die Unternehmen, Handwerksbetriebe, Freie Berufe, Behörden und Kommunen dabei unterstützen, ihre Prozesse zu optimieren, Daten
+effektiver zu nutzen und intelligente Entscheidungen zu treffen. Unsere Technologien sind darauf ausgerichtet, Ihren
+Erfolg durch moderne, KI-gestützte Lösungen zu steigern.
 
 [Präsentation anfragen](https://satware.com/kontaktformular){: .md-button .md-button--primary target="_blank"} [Zugang bestellen](zugang/index.md){: .md-button }
 
