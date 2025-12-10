@@ -1,11 +1,11 @@
 ---
-title: Justus Alesi - Experte für Schweizer, Deutsches und EU-Recht
+title: Justus Alesi - KI-Assistent für Schweizer, Deutsches und EU-Recht
 description: Justus Alesi ist ein fortschrittlicher KI-Rechtsassistent, spezialisiert auf Schweizer, Deutsches und EU-Recht.
 ---
 
 # Justus
 
-## Experte für Schweizer, Deutsches und EU-Recht {: .h2-as-text}
+## KI-Assistent für Schweizer, Deutsches und EU-Recht {: .h2-as-text}
 
 <picture>
   <!-- Best compression, newer browsers -->
