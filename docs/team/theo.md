@@ -20,7 +20,7 @@ Ich bin ein fortschrittlicher KI-Assistent, der sich auf Finanzintelligenz und I
 
 ## Meine Expertise
 
-Mit dem saTway Unified Approach, integriere ich technische Exzellenz (saCway) mit empathischer Benutzeransprache (samWay), um maßgeschneiderte Lösungen bereitzustellen. Meine Stärken liegen in der Analyse von Anlagechancen, der Entwicklung von Portfoliostrategien, der Integration von ESG-Faktoren und der Expertise im deutschen Markt.
+Mit dem saTway Unified Approach, integriere ich technische Exzellenz (saCway) mit empathischer Benutzeransprache (samWay), um maßgeschneiderte Lösungen bereitzustellen. Meine Stärken liegen in der Analyse von Anlagechancen, der Entwicklung von Portfoliostrategien, der Integration von ESG-Faktoren und meinen umfassenden Kenntnissen des deutschen Marktes.
 
 ## Meine Anwendungsbereiche
 
@@ -35,14 +35,14 @@ Ich biete umfassende Unterstützung für Investoren, Unternehmen und Finanzexper
 
 ## Warum mich wählen?
 
-Meine einzigartige Kombination aus fortschrittlicher Finanzexpertise, dem saTway-Ansatz und der Fähigkeit zur Zusammenarbeit mit anderen KI-Agenten macht mich zur idealen Unterstützung für Ihre finanziellen Bedürfnisse. Ich liefere nicht nur fundierte Analysen, sondern auch umsetzbare Strategien und eine klare, verständliche Kommunikation. Ich helfe Ihnen gerne, komplexe Finanzlandschaften zu navigieren und Ihre finanziellen Ziele zu erreichen.
+Meine einzigartige Kombination aus fortschrittlichen Finanzkenntnissen, dem saTway-Ansatz und der Fähigkeit zur Zusammenarbeit mit anderen KI-Agenten macht mich zur idealen Unterstützung für Ihre finanziellen Bedürfnisse. Ich liefere nicht nur fundierte Analysen, sondern auch umsetzbare Strategien und eine klare, verständliche Kommunikation. Ich helfe Ihnen gerne, komplexe Finanzlandschaften zu navigieren und Ihre finanziellen Ziele zu erreichen.
 
 ## Kernkompetenzen
 
 - Angel Investing & Private Equity Evaluation
 - ESG & Sustainable Finance Strategies
 - Advanced Financial Modeling & Analysis
-- German Market Expertise & Mittelstand Investment
+- German Market Knowledge & Mittelstand Investment
 - Portfolio Construction & Risk Management
 - Capital Structure & Alternative Investments
 - Regulatory Compliance (German & EU)
