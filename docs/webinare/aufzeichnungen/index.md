@@ -5,9 +5,7 @@ hide:
   - toc
 ---
 
-# Aufzeichnungen
-
-## Aufgezeichnete Webinare
+# Aufgezeichnete KI-Webinare
 
 <div class="custom-faq">
 

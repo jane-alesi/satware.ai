@@ -5,9 +5,7 @@ hide:
   - toc
 ---
 
-# Termine
-
-## Die nächsten Webinar-Termine
+# Die nächsten Webinar-Termine
 
 <div class="satag--webinar-dates">
 
