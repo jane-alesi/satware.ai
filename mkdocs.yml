@@ -82,6 +82,7 @@ plugins:
           # Critical business page redirects - Fix for 404 errors
           'zugang.md': 'zugang/index.md'           # /zugang -> /zugang/index.html
           'demo.md': 'https://chat.satware.ai/'    # /demo -> external chat URL
+          'anwendungen/index.md': 'anwendungsbeispiele/index.md'  # /anwendungen -> /anwendungsbeispiele
           
           # satware AG Benutzerkürzel System - Team Member Redirects
           # Format: kuerzel.md -> team/member.md
@@ -376,7 +377,7 @@ nav:
       - Tim Alesi: team/tim.md
       - Wolfgang Alesi: team/wolfgang.md
       - Zuri Alesi: team/zuri.md
-  - Anwendungen: anwendungen/index.md
+  - Anwendungsbeispiele: anwendungsbeispiele/index.md
   - Webinare: webinare/index.md
   - Workshops: workshops/index.md
   - Bestellen: zugang/index.md
