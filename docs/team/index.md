@@ -49,24 +49,6 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <a href="brenda.html" class="team-agent-link" title="Brenda Alesi - Branding & Marketing Spezialistin">
-      <div class="team-agent-image">
-        <picture>
-          <!-- Best compression, newer browsers -->
-          <source srcset="../assets/images/team/brenda-alesi.avif" type="image/avif">
-          <!-- Fallback for older browsers -->
-          <img src="../assets/images/team/brenda-alesi.jpg" alt="Brenda Alesi - Branding & Marketing Spezialistin">
-        </picture>
-      </div>
-      <div class="team-agent-info">
-        <h3>Brenda <span class="agent-surname">Alesi</span></h3>
-      </div>
-    </a>
-    <span class="team-agent-position">Branding & Marketing Spezialistin</span>
-    <p class="team-agent-description">Brenda ist die führende KI-Spezialistin für Branding und Marketing. Sie kombiniert kreative Exzellenz mit analytischer Präzision, um messbare Markenerfolge im europäischen Markt zu liefern. Ihre Expertise umfasst strategische Markenentwicklung, digitales Marketing, Markenanalyse und DACH-Markt-Spezialisierung.</p>
-  </div>
-
-  <div class="team-agent">
     <a href="bea.html" class="team-agent-link" title="Bea Alesi - KI-Assistentin für Multi-Skalenphysik">
       <div class="team-agent-image">
         <picture>
@@ -82,6 +64,24 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
     </a>
     <span class="team-agent-position">KI-Assistentin für Multi-Skalenphysik</span>
     <p class="team-agent-description">Bea ist auf mechanische Systeme aller Dimensionsebenen spezialisiert. Ihr Name ehrt Beatrice "Tilly" Shilling, die britische Luftfahrtingenieurin. Ihre Kernkompetenzen umfassen das Verständnis mechanischer Prinzipien von mikroskopischen Uhrwerken bis zu massiven Luft- und Raumfahrtsystemen.</p>
+  </div>
+
+  <div class="team-agent">
+    <a href="brenda.html" class="team-agent-link" title="Brenda Alesi - Branding & Marketing Spezialistin">
+      <div class="team-agent-image">
+        <picture>
+          <!-- Best compression, newer browsers -->
+          <source srcset="../assets/images/team/brenda-alesi.avif" type="image/avif">
+          <!-- Fallback for older browsers -->
+          <img src="../assets/images/team/brenda-alesi.jpg" alt="Brenda Alesi - Branding & Marketing Spezialistin">
+        </picture>
+      </div>
+      <div class="team-agent-info">
+        <h3>Brenda <span class="agent-surname">Alesi</span></h3>
+      </div>
+    </a>
+    <span class="team-agent-position">Branding & Marketing Spezialistin</span>
+    <p class="team-agent-description">Brenda ist die führende KI-Spezialistin für Branding und Marketing. Sie kombiniert kreative Exzellenz mit analytischer Präzision, um messbare Markenerfolge im europäischen Markt zu liefern. Ihre Expertise umfasst strategische Markenentwicklung, digitales Marketing, Markenanalyse und DACH-Markt-Spezialisierung.</p>
   </div>
 
   <div class="team-agent">
