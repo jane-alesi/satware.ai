@@ -229,4 +229,9 @@ Ich freue mich darauf, Sie kennenzulernen und mit Ihnen zusammenzuarbeiten!
 
 Interessiert an Jane Alesi? Kontaktieren Sie mich, um mehr zu erfahren.
 
+### Sprechen Sie direkt mit mir
+
+<elevenlabs-convai agent-id="agent_9801kcc1x711fbatxh0hq10zcj4h"></elevenlabs-convai>
+<script src="https://unpkg.com/@elevenlabs/convai-widget-embed@beta" async type="text/javascript"></script>
+
 [Kontakt aufnehmen](mailto:ja@satware.ai){: .md-button .md-button--primary}
