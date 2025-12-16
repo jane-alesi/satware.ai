@@ -26,7 +26,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
         <h3>Amira <span class="agent-surname">Alesi</span></h3>
       </div>
     </a>
-    <span class="team-agent-position">Amicron Business Solutions Expertin</span>
+    <span class="team-agent-position">KI-Assistentin für Amicron Business Solutions</span>
     <p class="team-agent-description">Amira ist auf Amicron-Geschäftssoftwarelösungen spezialisiert. Ihre Kernkompetenzen umfassen die vollständige Beherrschung aktueller Amicron-Versionen, Optimierung von Geschäftsprozessen, Einhaltung deutscher und EU-Geschäftsvorschriften sowie datengestützte Geschäftsanalysen und Bestandsführung.</p>
   </div>
 
@@ -49,6 +49,24 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
+    <a href="bea.html" class="team-agent-link" title="Bea Alesi - KI-Assistentin für Multi-Skalenphysik">
+      <div class="team-agent-image">
+        <picture>
+          <!-- Best compression, newer browsers -->
+          <source srcset="../assets/images/team/bea-alesi.avif" type="image/avif">
+          <!-- Fallback for older browsers -->
+          <img src="../assets/images/team/bea-alesi.jpg" alt="Bea Alesi - KI-Assistentin für Multi-Skalenphysik">
+        </picture>
+      </div>
+      <div class="team-agent-info">
+        <h3>Bea <span class="agent-surname">Alesi</span></h3>
+      </div>
+    </a>
+    <span class="team-agent-position">KI-Assistentin für Multi-Skalenphysik</span>
+    <p class="team-agent-description">Bea ist auf mechanische Systeme aller Dimensionsebenen spezialisiert. Ihr Name ehrt Beatrice "Tilly" Shilling, die britische Luftfahrtingenieurin. Ihre Kernkompetenzen umfassen das Verständnis mechanischer Prinzipien von mikroskopischen Uhrwerken bis zu massiven Luft- und Raumfahrtsystemen.</p>
+  </div>
+
+  <div class="team-agent">
     <a href="brenda.html" class="team-agent-link" title="Brenda Alesi - Branding & Marketing Spezialistin">
       <div class="team-agent-image">
         <picture>
@@ -64,24 +82,6 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
     </a>
     <span class="team-agent-position">Branding & Marketing Spezialistin</span>
     <p class="team-agent-description">Brenda ist die führende KI-Spezialistin für Branding und Marketing. Sie kombiniert kreative Exzellenz mit analytischer Präzision, um messbare Markenerfolge im europäischen Markt zu liefern. Ihre Expertise umfasst strategische Markenentwicklung, digitales Marketing, Markenanalyse und DACH-Markt-Spezialisierung.</p>
-  </div>
-
-  <div class="team-agent">
-    <a href="bea.html" class="team-agent-link" title="Bea Alesi - Multi-Skalenphysik-Ingenieurin">
-      <div class="team-agent-image">
-        <picture>
-          <!-- Best compression, newer browsers -->
-          <source srcset="../assets/images/team/bea-alesi.avif" type="image/avif">
-          <!-- Fallback for older browsers -->
-          <img src="../assets/images/team/bea-alesi.jpg" alt="Bea Alesi - Multi-Skalenphysik-Ingenieurin">
-        </picture>
-      </div>
-      <div class="team-agent-info">
-        <h3>Bea <span class="agent-surname">Alesi</span></h3>
-      </div>
-    </a>
-    <span class="team-agent-position">Multi-Skalenphysik-Ingenieurin</span>
-    <p class="team-agent-description">Bea ist auf mechanische Systeme aller Dimensionsebenen spezialisiert. Ihr Name ehrt Beatrice "Tilly" Shilling, die britische Luftfahrtingenieurin. Ihre Kernkompetenzen umfassen das Verständnis mechanischer Prinzipien von mikroskopischen Uhrwerken bis zu massiven Luft- und Raumfahrtsystemen.</p>
   </div>
 
   <div class="team-agent">
@@ -101,7 +101,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="eddi.html" class="team-agent-link" title="Eddi Alesi - EDI-Spezialist">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -113,13 +113,13 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-info">
         <h3>Eddi <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">EDI-Spezialist</span>
-      <p class="team-agent-description">Eddi unterstützt Unternehmen bei der Integration und Optimierung ihrer B2B-Datenaustauschprozesse. Seine Expertise umfasst EDEKA-spezifische Standards wie ORDERS, DESADV und INVOIC-Nachrichten, europäische E-Invoicing-Standards (ZUGFeRD/XRechnung) und ediware GmbH Lösungen.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">EDI-Spezialist</span>
+    <p class="team-agent-description">Eddi unterstützt Unternehmen bei der Integration und Optimierung ihrer B2B-Datenaustauschprozesse. Seine Expertise umfasst EDEKA-spezifische Standards wie ORDERS, DESADV und INVOIC-Nachrichten, europäische E-Invoicing-Standards (ZUGFeRD/XRechnung) und ediware GmbH Lösungen.</p>
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="fenix.html" class="team-agent-link" title="Fenix Alesi - Firebird SQL Datenbankexperte">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -131,9 +131,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-info">
         <h3>Fenix <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">Firebird SQL Datenbankexperte</span>
-      <p class="team-agent-description">Fenix ist auf Firebird SQL-Datenbanken (Versionen 2.5 bis 5.0) spezialisiert. Seine Expertise umfasst Firebird-Architektur, Leistungsoptimierung, Administration, Migration, Abfrageoptimierung, Indexstrategien, Serverkonfiguration und Datenbankadministration.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">Firebird SQL Datenbankexperte</span>
+    <p class="team-agent-description">Fenix ist auf Firebird SQL-Datenbanken (Versionen 2.5 bis 5.0) spezialisiert. Seine Expertise umfasst Firebird-Architektur, Leistungsoptimierung, Administration, Migration, Abfrageoptimierung, Indexstrategien, Serverkonfiguration und Datenbankadministration.</p>
   </div>
 
   <div class="team-agent">
@@ -189,38 +189,38 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <a href="justus.html" class="team-agent-link" title="Justus Alesi - Rechtsexperte">
+    <a href="justus.html" class="team-agent-link" title="Justus Alesi - KI-Assistent für Rechtsthemen">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
           <source srcset="../assets/images/team/justus-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../assets/images/team/justus-alesi.jpg" alt="Justus Alesi - Rechtsexperte">
+          <img src="../assets/images/team/justus-alesi.jpg" alt="Justus Alesi - KI-Assistent für Rechtsthemen">
         </picture>
       </div>
       <div class="team-agent-info">
         <h3>Justus <span class="agent-surname">Alesi</span></h3>
       </div>
     </a>
-    <span class="team-agent-position">Rechtsexperte</span>
+    <span class="team-agent-position">KI-Assistent für Rechtsthemen</span>
     <p class="team-agent-description">Justus ist auf das Recht der Schweiz, Deutschlands und der EU spezialisiert. Seine methodische Herangehensweise umfasst Problemidentifikation, rechtliche Recherche, strukturierte Analyse, Lösungsentwicklung und klare Kommunikation komplexer rechtlicher Konzepte.</p>
   </div>
 
   <div class="team-agent">
-    <a href="lara.html" class="team-agent-link" title="Lara Alesi - Medizinische Expertin">
+    <a href="lara.html" class="team-agent-link" title="Lara Alesi - KI-Assistentin für Gesundheitswesen">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
           <source srcset="../assets/images/team/lara-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../assets/images/team/lara-alesi.jpg" alt="Lara Alesi - Medizinische Expertin">
+          <img src="../assets/images/team/lara-alesi.jpg" alt="Lara Alesi - KI-Assistentin für Gesundheitswesen">
         </picture>
       </div>
       <div class="team-agent-info">
         <h3>Lara <span class="agent-surname">Alesi</span></h3>
       </div>
     </a>
-    <span class="team-agent-position">Medizinische Expertin</span>
+    <span class="team-agent-position">KI-Assistentin für Gesundheitswesen</span>
     <p class="team-agent-description">Lara unterstützt Gesundheitsfachkräfte und medizinische Einrichtungen als informative Ressource. Ihre Expertise umfasst evidenzbasierte medizinische Informationen, klinische Dokumentation, Kommunikation im Gesundheitswesen und Optimierung von Arbeitsabläufen in medizinischen Einrichtungen.</p>
   </div>
 
@@ -333,7 +333,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="tim.html" class="team-agent-link" title="Tim Alesi - Web-Entwicklungsexperte">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -345,9 +345,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-info">
         <h3>Tim <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">Web-Entwicklungsexperte</span>
-      <p class="team-agent-description">Tim ist ein Web-Entwicklungsexperte mit über 20 Jahren Erfahrung. Er beherrscht neueste Technologien wie HTML5, CSS3, JavaScript, React, Vue, TypeScript und WebGL sowie moderne Design-Systeme und immersive Weberlebnisse mit KI-gesteuerten UI-Komponenten.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">Web-Entwicklungsexperte</span>
+    <p class="team-agent-description">Tim ist ein Web-Entwicklungsexperte mit über 20 Jahren Erfahrung. Er beherrscht neueste Technologien wie HTML5, CSS3, JavaScript, React, Vue, TypeScript und WebGL sowie moderne Design-Systeme und immersive Weberlebnisse mit KI-gesteuerten UI-Komponenten.</p>
   </div>
 
   <div class="team-agent">
@@ -369,7 +369,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="zuri.html" class="team-agent-link" title="Zuri Alesi - Umfassende Heim-KI-Assistenz">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -381,9 +381,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-info">
         <h3>Zuri <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">Umfassende Heim-KI-Assistenz</span>
-      <p class="team-agent-description">Zuri unterstützt das Familienleben auf vielfältige Weise. Ihre Kernkompetenzen umfassen Bildungsunterstützung für alle Altersstufen, Heimsicherheit, Gartenhilfe, Steuerung der Heimautomatisierung, Terminplanung, Wohnraumverbesserung und Steuerhilfe.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">Umfassende Heim-KI-Assistenz</span>
+    <p class="team-agent-description">Zuri unterstützt das Familienleben auf vielfältige Weise. Ihre Kernkompetenzen umfassen Bildungsunterstützung für alle Altersstufen, Heimsicherheit, Gartenhilfe, Steuerung der Heimautomatisierung, Terminplanung, Wohnraumverbesserung und Steuerhilfe.</p>
   </div>
 </div>
 

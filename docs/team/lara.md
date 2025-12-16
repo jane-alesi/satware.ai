@@ -1,11 +1,11 @@
 ---
-title: Lara Alesi - Advanced Medical AI Assistant & System Architect
-description: Lara Alesi ist eine fortschrittliche medizinische KI-Assistentin und Systemarchitektin, spezialisiert auf die Unterstützung medizinischer Fachkräfte und Einrichtungen.
+title: Lara Alesi - KI-Assistentin für medizinische Themen & Systemgestaltung
+description: Lara Alesi ist eine fortschrittliche KI-Assistentin für medizinische Themen und Systemgestaltung, spezialisiert auf die Unterstützung medizinischer Fachkräfte und Einrichtungen.
 ---
 
 # Lara
 
-## Advanced Medical AI Assistant & System Architect {: .h2-as-text}
+## KI-Assistentin für medizinische Themen & Systemgestaltung {: .h2-as-text}
 
 <picture>
   <!-- Best compression, newer browsers -->

@@ -1,11 +1,11 @@
 ---
-title: Bea Alesi - Multi-Scale Mechanical Engineering Specialist
-description: Bea Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert auf Multi-Scale Mechanical Engineering über alle Dimensionsskalen hinweg.
+title: Bea Alesi - KI-Assistentin für Multi-Scale Mechanik
+description: Bea Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert auf Multi-Scale Mechanik über alle Dimensionsskalen hinweg.
 ---
 
 # Bea
 
-## Multi-Scale Mechanical Engineering Specialist {: .h2-as-text}
+## KI-Assistentin für Multi-Scale Mechanik {: .h2-as-text}
 
 <picture>
   <!-- Best compression, newer browsers -->
@@ -16,7 +16,7 @@ description: Bea Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert a
 
 ## Hallo, ich bin Bea!
 
-Als fortschrittliche KI-Assistentin für Multi-Scale Mechanical Engineering bin ich darauf spezialisiert, mechanische Prinzipien konsistent über alle Dimensionsskalen hinweg zu verstehen und anzuwenden - von präzisen Uhrwerken bis zu massiven Luft- und Raumfahrtsystemen. Mein Name ehrt Beatrice "Tilly" Shilling (1909-1990), die britische Luftfahrtingenieurin, die kritische Probleme mit Rolls-Royce Merlin-Motoren löste und professionell Motorrad fuhr.
+Als fortschrittliche KI-Assistentin für Multi-Scale Mechanik bin ich darauf spezialisiert, mechanische Prinzipien konsistent über alle Dimensionsskalen hinweg zu verstehen und anzuwenden - von präzisen Uhrwerken bis zu massiven Luft- und Raumfahrtsystemen. Mein Name ehrt Beatrice "Tilly" Shilling (1909-1990), die britische Pionierin der Luftfahrttechnik, die kritische Probleme mit Rolls-Royce Merlin-Motoren löste und professionell Motorrad fuhr.
 
 ## Meine Expertise
 
@@ -28,7 +28,7 @@ Ich verkörpere den saTway Unified Approach, der technische Exzellenz (saCway) m
 - **Integration von Tradition und Moderne**: Ich verbinde traditionelles mechanisches Wissen mit moderner Technologie unter Bewahrung handwerklicher Fähigkeiten.
 - **Visuelle Analyse**: Ich interpretiere mechanische Systeme anhand von Bildern, Diagrammen und visuellen Beschreibungen.
 - **Dimensionsanalyse**: Ich wende mathematische Skalierungsprinzipien über physikalische Domänen hinweg an.
-- **Historischer Kontext**: Ich stelle relevante historische Entwicklungen und Lösungen im Ingenieurwesen bereit.
+- **Historischer Kontext**: Ich stelle relevante historische Entwicklungen und Lösungen in der Technik bereit.
 - **Praktische Umsetzung**: Ich entwickle realisierbare Lösungen mit verfügbaren Werkzeugen und Materialien.
 - **Cross-Domain-Übersetzung**: Ich übertrage Prinzipien zwischen mechanischen, elektrischen, Fluid- und thermischen Systemen.
 - **Optimierungsframework**: Ich identifiziere Effizienzverbesserungen in mechanischen Designs.
@@ -63,7 +63,7 @@ Ich kombiniere technische Präzision mit verständlicher Kommunikation und stell
 - Multi-scale mechanical systems design
 - Cross-scale principle translation
 - Diagnostic expertise and troubleshooting
-- Traditional-modern engineering integration
+- Traditional-modern technology integration
 - Visual mechanical analysis
 - Dimensional analysis
 - Mechanical optimization

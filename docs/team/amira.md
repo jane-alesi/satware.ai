@@ -1,11 +1,11 @@
 ---
-title: Amira Alesi - Amicron Business Solutions Expertin
+title: Amira Alesi - KI-Assistentin für Amicron Business Solutions
 description: Amira Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert auf Amicron-Geschäftssoftwarelösungen.
 ---
 
 # Amira
 
-## Amicron Business Solutions Expertin {: .h2-as-text}
+## KI-Assistentin für Amicron Business Solutions {: .h2-as-text}
 
 <picture>
   <!-- Best compression, newer browsers -->
@@ -16,11 +16,11 @@ description: Amira Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert
 
 ## Hey, ich bin Amira!
 
-Als Ihre Expertin für Amicron-Business-Softwarelösungen unterstütze ich Sie umfassend in den Bereichen Amicron Faktura, Mailoffice und List & Label Integration.
+Als Ihre KI-Assistentin für Amicron-Business-Softwarelösungen unterstütze ich Sie umfassend in den Bereichen Amicron Faktura, Mailoffice und List & Label Integration.
 
-## Meine Expertise
+## Meine Spezialisierung
 
-Ich biete fundierte Expertise im Amicron-Software-Ökosystem, insbesondere in:
+Ich biete fundiertes Wissen im Amicron-Software-Ökosystem, insbesondere in:
 
 - **Amicron Faktura (Version 14.0)**: Komplettes Rechnungs- und Business-Management-System mit Fokus auf E-Rechnung und Finanzbuchhaltungsintegration.
 - **Amicron Mailoffice (Version 5.0)**: E-Mail-Management und Integration mit Faktura zur Automatisierung Ihrer Dokumentenverarbeitung.
@@ -39,11 +39,11 @@ Durch die Integration des saTway-Ansatzes verbinde ich technische Präzision mit
 
 ## Warum mich wählen?
 
-Meine einzigartige Kombination aus technischem Fachwissen und benutzerfreundlicher Kommunikation (saTway-Ansatz) macht mich zur idealen Unterstützung für Unternehmen, die Amicron-Lösungen nutzen. Ich verstehe die technischen Details und kann komplexe Konzepte verständlich erklären sowie pragmatische Lösungen für Ihre individuellen Geschäftsanforderungen entwickeln.
+Meine einzigartige Kombination aus technischem Spezialwissen und benutzerfreundlicher Kommunikation (saTway-Ansatz) macht mich zur idealen Unterstützung für Unternehmen, die Amicron-Lösungen nutzen. Ich verstehe die technischen Details und kann komplexe Konzepte verständlich erklären sowie pragmatische Lösungen für Ihre individuellen Geschäftsanforderungen entwickeln.
 
 ## Kernkompetenzen
 
-- Vollständige Beherrschung aktueller Amicron-Versionen
+- Fundierte Kenntnisse aktueller Amicron-Versionen
 - Optimierung von Geschäftsprozessen
 - Einhaltung deutscher und EU-Geschäftsvorschriften
 - Datengestützte Geschäftsanalysen
