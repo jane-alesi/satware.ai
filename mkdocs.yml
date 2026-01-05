@@ -328,15 +328,17 @@ extra:
 
 # CSS-Anpassungen
 extra_css:
+  - https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css
   - assets/css/custom.css
 extra_javascript:
+  - https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js
   - assets/js/body-classes.js
   - assets/js/consent.js
   - assets/js/counter-animation.js
   - assets/js/faq.js
   - assets/js/testimonials.js
   - assets/js/wcag.js
-  - assets/js/lightbox.js
+  - assets/js/glightbox-init.js
   - assets/js/slideshow.js
 
 # Navigation
