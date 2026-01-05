@@ -20726,37 +20726,6 @@ body.home {
   max-height: 3000px;
   /* Größerer Wert, um sicherzustellen, dass der Inhalt vollständig angezeigt wird */ }
 
-/**
- * GLightbox Custom Styles for satware.ai
- * Matches the project's design system and dark mode
- */
-.glightbox-container .gslide-description {
-  background: var(--md-code-bg-color);
-  color: var(--md-typeset-color); }
-
-.glightbox-container .gslide-title {
-  color: var(--md-typeset-color);
-  font-family: var(--md-text-font-family);
-  font-weight: 700; }
-
-.glightbox-container .gslide-desc {
-  color: var(--md-typeset-color);
-  opacity: 0.8; }
-
-.glightbox-container .gclose, .glightbox-container .gnext, .glightbox-container .gprev {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%; }
-  .glightbox-container .gclose svg path, .glightbox-container .gnext svg path, .glightbox-container .gprev svg path {
-    fill: #fff; }
-  .glightbox-container .gclose:hover, .glightbox-container .gnext:hover, .glightbox-container .gprev:hover {
-    background-color: var(--md-primary-fg-color); }
-
-.glightbox-trigger, [data-glightbox] {
-  cursor: pointer;
-  transition: opacity 0.2s ease; }
-  .glightbox-trigger:hover, [data-glightbox]:hover {
-    opacity: 0.9; }
-
 /* Slideshow styling for FAQ answers */
 .faq-slideshow {
   position: relative;
