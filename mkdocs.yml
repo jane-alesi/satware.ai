@@ -64,6 +64,18 @@ plugins:
       archive: true
       authors: true
   - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - no-glightbox
+      auto_themed: true
   - redirects:
       redirect_maps:
           # Critical business page redirects - Fix for 404 errors
@@ -328,17 +340,14 @@ extra:
 
 # CSS-Anpassungen
 extra_css:
-  - https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css
   - assets/css/custom.css
 extra_javascript:
-  - https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js
   - assets/js/body-classes.js
   - assets/js/consent.js
   - assets/js/counter-animation.js
   - assets/js/faq.js
   - assets/js/testimonials.js
   - assets/js/wcag.js
-  - assets/js/glightbox-init.js
   - assets/js/slideshow.js
 
 # Navigation

@@ -29,7 +29,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     mkdocs-include-markdown-plugin \
     mkdocs-literate-nav \
     mkdocs-macros-plugin \
-    mkdocs-material==9.6.14 \
+    mkdocs-material==9.7.1 \
     mkdocs-material[imaging] \
     mkdocs-minify-plugin \
     mkdocs-redirects \
