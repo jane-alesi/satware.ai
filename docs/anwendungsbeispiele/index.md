@@ -31,10 +31,10 @@ Die folgenden Anwendungsbeispiele zeigen konkrete Einsatzmöglichkeiten für Kun
     <div class="faq-slideshow">
       <div class="faq-slideshow-container">
         <div class="faq-slide">
-          <img src="/assets/images/screenshots/ki-gestuetzte-e-mail-erstellung-1.png" alt="KI-gestützte E-Mail-Erstellung Beispiel 1">
+          <img src="../assets/images/screenshots/ki-gestuetzte-e-mail-erstellung-1.png" alt="KI-gestützte E-Mail-Erstellung Beispiel 1">
         </div>
         <div class="faq-slide">
-          <img src="/assets/images/screenshots/ki-gestuetzte-e-mail-erstellung-2.png" alt="KI-gestützte E-Mail-Erstellung Beispiel 2">
+          <img src="../assets/images/screenshots/ki-gestuetzte-e-mail-erstellung-2.png" alt="KI-gestützte E-Mail-Erstellung Beispiel 2">
         </div>
       </div>
       <div class="faq-slideshow-nav">
@@ -59,7 +59,7 @@ Die folgenden Anwendungsbeispiele zeigen konkrete Einsatzmöglichkeiten für Kun
     <div class="faq-slideshow">
       <div class="faq-slideshow-container">
         <div class="faq-slide">
-          <img src="/assets/images/screenshots/dokumentenanalyse-mit-ki.png" alt="Dokumentenanalyse mit KI Beispiel">
+          <img src="../assets/images/screenshots/dokumentenanalyse-mit-ki.png" alt="Dokumentenanalyse mit KI Beispiel">
         </div>
       </div>
       <div class="faq-slideshow-nav">
@@ -84,16 +84,16 @@ Die folgenden Anwendungsbeispiele zeigen konkrete Einsatzmöglichkeiten für Kun
     <div class="faq-slideshow">
       <div class="faq-slideshow-container">
         <div class="faq-slide">
-          <img src="/assets/images/screenshots/ki-gestuetzte-projektplanung-1.png" alt="KI-gestützte Projektplanung Beispiel 1">
+          <img src="../assets/images/screenshots/ki-gestuetzte-projektplanung-1.png" alt="KI-gestützte Projektplanung Beispiel 1">
         </div>
         <div class="faq-slide">
-          <img src="/assets/images/screenshots/ki-gestuetzte-projektplanung-2.png" alt="KI-gestützte Projektplanung Beispiel 2">
+          <img src="../assets/images/screenshots/ki-gestuetzte-projektplanung-2.png" alt="KI-gestützte Projektplanung Beispiel 2">
         </div>
         <div class="faq-slide">
-          <img src="/assets/images/screenshots/ki-gestuetzte-projektplanung-3.png" alt="KI-gestützte Projektplanung Beispiel 3">
+          <img src="../assets/images/screenshots/ki-gestuetzte-projektplanung-3.png" alt="KI-gestützte Projektplanung Beispiel 3">
         </div>
         <div class="faq-slide">
-          <img src="/assets/images/screenshots/ki-gestuetzte-projektplanung-4.png" alt="KI-gestützte Projektplanung Beispiel 4">
+          <img src="../assets/images/screenshots/ki-gestuetzte-projektplanung-4.png" alt="KI-gestützte Projektplanung Beispiel 4">
         </div>
       </div>
       <div class="faq-slideshow-nav">
