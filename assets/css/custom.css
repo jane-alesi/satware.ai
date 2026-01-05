@@ -20726,85 +20726,37 @@ body.home {
   max-height: 3000px;
   /* Größerer Wert, um sicherzustellen, dass der Inhalt vollständig angezeigt wird */ }
 
-.satag-lightbox {
-  display: none;
-  position: fixed !important;
-  z-index: 9999;
-  opacity: 0;
-  transition: opacity 0.4s ease, transform 0.4s ease;
-  background-color: transparent;
-  align-items: center;
-  justify-content: center; }
-  .satag-lightbox.active {
-    display: flex;
-    opacity: 1; }
-  .satag-lightbox .satag-lightbox-close {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-    z-index: 1001;
-    transition: color 0.3s ease, background-color 0.3s ease;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1; }
-    .satag-lightbox .satag-lightbox-close:hover {
-      color: var(--md-primary-fg-color--light);
-      background-color: rgba(255, 255, 255, 0.9); }
-  .satag-lightbox .satag-lightbox-img {
-    max-width: 80%;
-    max-height: 80%;
-    width: auto;
-    height: auto;
-    object-fit: contain;
-    border: 2px solid var(--md-primary-fg-color--light);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    transform: scale(0.95);
-    transition: transform 0.4s ease;
-    display: block;
-    position: relative; }
-  @media (max-width: 1219px) {
-    .satag-lightbox .satag-lightbox-close {
-      top: 5px;
-      right: 5px;
-      font-size: 22px;
-      width: 28px;
-      height: 28px; }
-    .satag-lightbox .satag-lightbox-img {
-      border-width: 1px; } }
-  @media (max-width: 959px) {
-    .satag-lightbox .satag-lightbox-close {
-      top: 3px;
-      right: 3px;
-      font-size: 20px;
-      width: 25px;
-      height: 25px; }
-    .satag-lightbox .satag-lightbox-img {
-      border-width: 1px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.25); } }
-  @media (max-width: 479px) {
-    .satag-lightbox .satag-lightbox-close {
-      top: 2px;
-      right: 2px;
-      font-size: 18px;
-      width: 22px;
-      height: 22px; }
-    .satag-lightbox .satag-lightbox-img {
-      border-width: 1px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); } }
-.screenshot-container img {
-  transition: opacity 0.3s ease; }
-  @media (min-width: 769px) {
-    .screenshot-container img:hover {
-      opacity: 0.9; } }
+/**
+ * GLightbox Custom Styles for satware.ai
+ * Matches the project's design system and dark mode
+ */
+.glightbox-container .gslide-description {
+  background: var(--md-code-bg-color);
+  color: var(--md-typeset-color); }
+
+.glightbox-container .gslide-title {
+  color: var(--md-typeset-color);
+  font-family: var(--md-text-font-family);
+  font-weight: 700; }
+
+.glightbox-container .gslide-desc {
+  color: var(--md-typeset-color);
+  opacity: 0.8; }
+
+.glightbox-container .gclose, .glightbox-container .gnext, .glightbox-container .gprev {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%; }
+  .glightbox-container .gclose svg path, .glightbox-container .gnext svg path, .glightbox-container .gprev svg path {
+    fill: #fff; }
+  .glightbox-container .gclose:hover, .glightbox-container .gnext:hover, .glightbox-container .gprev:hover {
+    background-color: var(--md-primary-fg-color); }
+
+.glightbox-trigger, [data-glightbox] {
+  cursor: pointer;
+  transition: opacity 0.2s ease; }
+  .glightbox-trigger:hover, [data-glightbox]:hover {
+    opacity: 0.9; }
+
 /* Slideshow styling for FAQ answers */
 .faq-slideshow {
   position: relative;
