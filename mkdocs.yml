@@ -264,6 +264,7 @@ plugins:
         - tags
       pretty_print: false
       use_git: true
+  - macros
 
 # Erweiterungen
 markdown_extensions:
