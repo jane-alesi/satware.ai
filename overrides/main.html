@@ -24,20 +24,9 @@
 <!-- Usercentrics CMP von eRecht24 -->
 <script id="usercentrics-cmp" async data-eu-mode="true" data-settings-id="plHHr67Ul9jqQP" src="https://app.eu.usercentrics.eu/browser-ui/latest/loader.js"></script>
 
-<!-- Matomo - mit eRecht24 Integration -->
-<script>
-    var _paq = window._paq = window._paq || [];
-    _paq.push(["setExcludedQueryParams", ["utm_source","utm_medium","utm_campaign","utm_content","utm_term","fbclid","gclid","_ga","ref","osCsid","uKey"]]);
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-        var u="https://ut.literama.de/";
-        _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '63']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-    })();
-</script>
+<!-- <script src="https://cloud.ccm19.de/app.js?apiKey=a6de2022ab5cc5d4e53927c6ce8dbf1783a551a8668aad1d&amp;domain=6818770b621759a9310961b2" referrerpolicy="origin"></script> -->
+
+
 {% endblock %}
 
 {% block styles %}
@@ -47,5 +36,3 @@
 {% block content %}
 {{ super() }}
 {% endblock %}
-
-
