@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main-mkdocs
+  workflow_dispatch:
 
 jobs:
   deploy:
